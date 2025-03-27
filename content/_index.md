@@ -25,8 +25,8 @@ sections:
           filename: ICCV_intro.svg
           filters:
             brightness: 1.0
-          size: actual
-          position: cover
+          size: cover
+          position: center
           parallax: false
   - block: markdown
     content:
