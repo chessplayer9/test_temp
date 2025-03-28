@@ -32,7 +32,7 @@ sections:
   - block: markdown
     content:
       title: |
-        <input type="text" style="width: 200px;" value="<nobr>OpenEarthSensing: Large-Scale Fine-Grained Open-World Remote Sensing Benchmark</nobr>">
+        <input type="text" style="width: 100%;" value="<nobr>OpenEarthSensing: Large-Scale Fine-Grained Open-World Remote Sensing Benchmark</nobr>">
       subtitle: ''
       text: |-
         Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
