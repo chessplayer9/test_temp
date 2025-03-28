@@ -41,7 +41,7 @@ sections:
       title: |
         <style> .no-wrap-center {white-space: nowrap; text-align: center;}</style><div class="no-wrap-center">OpenEarthSensing: Large-Scale Fine-Grained Open-World Remote Sensing Benchmark</div>
 
-        <a href="https://arxiv.org/abs/2502.20668">[paper]</a> <a href="https://github.com/HAIV-Lab/openhaiv">[code]</a> 
+        <style>.center {text-align: center;}.adjust {font-size: 10px;}</style><div class="center"><div class="adjust"><a href="https://arxiv.org/abs/2502.20668">[paper]</a> | <a href="https://github.com/HAIV-Lab/openhaiv">[code]</a></div></div>
       design:
         spacing:
           padding: ["0px", "0px", "0px", "0px"]  # 垂直30px/水平0
