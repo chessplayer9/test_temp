@@ -28,6 +28,14 @@ sections:
           size: actual
           position: center
           parallax: false
+          
+  - block: resume-biography-3
+    content:
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      # username: admin
+      title: 'OpenEarthSensing: Large-Scale Fine-Grained Open-World Remote Sensing Benchmark'
+      text: ""
+  
   - block: markdown
     content:
       title: 'OpenEarthSensing: Large-Scale Fine-Grained Open-World Remote Sensing Benchmark'
