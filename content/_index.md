@@ -34,9 +34,9 @@ sections:
       title: |
         <style> .no-wrap-center {white-space: nowrap; text-align: center;}</style><div class="no-wrap-center">OpenEarthSensing: Large-Scale Fine-Grained Open-World Remote Sensing Benchmark</div>
       subtitle: |
-        [paper](https://arxiv.org/abs/2502.20668) & [code](https://github.com/HAIV-Lab/openhaiv)
       text: |-
-        [paper](https://arxiv.org/abs/2502.20668) & [code](https://github.com/HAIV-Lab/openhaiv)
+        [\[paper\]](https://arxiv.org/abs/2502.20668) & [\[code\]](https://github.com/HAIV-Lab/openhaiv)
+
         Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
 
         I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
