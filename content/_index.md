@@ -29,12 +29,6 @@ sections:
           position: center
           parallax: false
 
-  - block: resume-biography-3
-    content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      # username: admin
-      text: "OpenEarthSensing: Large-Scale Fine-Grained Open-World Remote Sensing Benchmark"
-  
   - block: markdown
     content:
       title: 'OpenEarthSensing: Large-Scale Fine-Grained Open-World Remote Sensing Benchmark'
@@ -46,7 +40,7 @@ sections:
         
         Please reach out to collaborate 😃
     design:
-      columns: '1'
+      columns: '2'
   - block: collection
     id: papers
     content:
