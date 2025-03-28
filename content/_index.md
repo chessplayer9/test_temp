@@ -29,19 +29,25 @@ sections:
           position: center
           parallax: false
 
+  # - block: markdown
+  #   content:
+  #     text: |-
+  #       <style> .no-wrap-center {white-space: nowrap; text-align: center;}</style><div class="no-wrap-center">OpenEarthSensing: Large-Scale Fine-Grained Open-World Remote Sensing Benchmark</div>
+
+  #       [[paper]](https://arxiv.org/abs/2502.20668) \| [[code]](https://github.com/HAIV-Lab/openhaiv)
+
+  - block: markdown
+    content:
+      title: |
+        <style> .no-wrap-center {white-space: nowrap; text-align: center;}</style><div class="no-wrap-center">OpenEarthSensing: Large-Scale Fine-Grained Open-World Remote Sensing Benchmark</div>
+      design:
+        spacing:
+          padding: ["0px", "0px", "0px", "0px"]  # 垂直30px/水平0
+
   - block: markdown
     content:
       text: |-
-        <style> .no-wrap-center {white-space: nowrap; text-align: center;}</style><div class="no-wrap-center">OpenEarthSensing: Large-Scale Fine-Grained Open-World Remote Sensing Benchmark</div>
-        
         [[paper]](https://arxiv.org/abs/2502.20668) \| [[code]](https://github.com/HAIV-Lab/openhaiv)
-
-  # - block: markdown
-  #   content:
-  #     title: |
-  #       <style> .no-wrap-center {white-space: nowrap; text-align: center;}</style><div class="no-wrap-center">OpenEarthSensing: Large-Scale Fine-Grained Open-World Remote Sensing Benchmark</div>
-  #     text: |-
-  #       [[paper]](https://arxiv.org/abs/2502.20668) \| [[code]](https://github.com/HAIV-Lab/openhaiv)
         
   # - block: markdown
   #   content:
