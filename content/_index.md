@@ -41,7 +41,7 @@ sections:
       title: |
         <style> .no-wrap-center {white-space: nowrap; text-align: center;}</style><div class="no-wrap-center">OpenEarthSensing: Large-Scale Fine-Grained Open-World Remote Sensing Benchmark</div>
 
-        <style>.center {text-align: center;}.adjust {font-size: 10px;}</style><div class="center"><div class="adjust"><a href="https://arxiv.org/abs/2502.20668">[paper]</a> | <a href="https://github.com/HAIV-Lab/openhaiv">[code]</a></div></div>
+        <style>.link {font-size: 20px;text-decoration: none;}.link:hover {color: red; /* 改变链接颜色 */font-weight: bold; /* 改变链接文本的粗细 */cursor: pointer; /* 鼠标悬停时显示手型指示链接可点击 */}</style><a href="https://arxiv.org/abs/2502.20668" class="link">[paper]</a> | <a href="https://github.com/HAIV-Lab/openhaiv" class="link">[code]</a>
       design:
         spacing:
           padding: ["0px", "0px", "0px", "0px"]  # 垂直30px/水平0
@@ -49,7 +49,7 @@ sections:
   # - block: markdown
   #   content:
   #     text: |-
-  #       [[paper]](https://arxiv.org/abs/2502.20668) \| [[code]](https://github.com/HAIV-Lab/openhaiv)
+  #       [[paper]](https://arxiv.org/abs/2502.20668) \| [[code]](https://github.com/HAIV-Lab/openhaiv)        # <style>.center {text-align: center;}.adjust {font-size: 20px;}</style><div class="center"><div class="adjust"><a href="https://arxiv.org/abs/2502.20668">[paper]</a> | <a href="https://github.com/HAIV-Lab/openhaiv">[code]</a></div></div>
         
   # - block: markdown
   #   content:
