@@ -41,7 +41,7 @@ sections:
       title: |
       subtitle: |
       text: |-
-        <center> [[paper]](https://arxiv.org/abs/2502.20668) \| [[code]](https://github.com/HAIV-Lab/openhaiv) </center>
+        [[paper]](https://arxiv.org/abs/2502.20668) \| [[code]](https://github.com/HAIV-Lab/openhaiv)
 
   - block: collection
     id: papers
