@@ -33,7 +33,8 @@ sections:
     content:
       title: |
         <style> .no-wrap-center {white-space: nowrap; text-align: center;}</style><div class="no-wrap-center">OpenEarthSensing: Large-Scale Fine-Grained Open-World Remote Sensing Benchmark</div>
-      subtitle: ''
+      subtitle: |
+        [paper](https://arxiv.org/abs/2502.20668) & [code](https://github.com/HAIV-Lab/openhaiv)
       text: |-
         Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
 
