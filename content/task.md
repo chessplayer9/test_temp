@@ -7,7 +7,12 @@ design:
   spacing: '3rem'
 
 # Note: `username` refers to the user's folder name in `content/authors/`
-
+{{< html >}}
+        <div>
+            <h1>This is an HTML heading</h1>
+            <p>This is a paragraph of HTML content.</p>
+        </div>
+  {{< /html >}}
 # Page sections
 sections:
   - block: resume-biography-3
@@ -41,12 +46,7 @@ sections:
       spacing:
         padding: ["310px", "0px", "310px", "0px"]  # 垂直30px/水平0
       css_class: dark
-{{< html >}}
-    <div>
-        <h1>This is an HTML heading</h1>
-        <p>This is a paragraph of HTML content.</p>
-    </div>
-{{< /html >}}
+  
       
 
 #   - block: markdown
