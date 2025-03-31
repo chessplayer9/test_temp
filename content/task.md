@@ -41,6 +41,12 @@ sections:
       spacing:
         padding: ["310px", "0px", "310px", "0px"]  # 垂直30px/水平0
       css_class: dark
+{{< html >}}
+    <div>
+        <h1>This is an HTML heading</h1>
+        <p>This is a paragraph of HTML content.</p>
+    </div>
+{{< /html >}}
       
 
 #   - block: markdown
