@@ -21,7 +21,7 @@
   {{ .Inner }}
 </div> -->
 
-<div style="
+<!-- <div style="
   max-width: calc(100vw - {{ .Get "margin" | default "120px" }});
   width: calc(100vw - {{ .Get "margin" | default "120px" }});
   position: relative;
@@ -33,4 +33,30 @@
   {{ if .Get "bg" }}background: {{ .Get "bg" }};{{ end }}
 ">
   {{ .Inner }}
+</div> -->
+
+<div class="fullwidth-container" 
+     style="{{ with .Get "bg" }}background: {{ . }};{{ end }}
+            {{ with .Get "margin" }}--margin: {{ . }};{{ end }}">
+  <div class="fullwidth-content">
+    {{ .Inner | markdownify }}
+  </div>
 </div>
+
+<style>
+.fullwidth-container {
+  --margin: 120px;
+  width: 100vw;
+  max-width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin: 0 calc(-50vw + var(--margin)/2);
+  padding: 1rem 0;
+}
+.fullwidth-content {
+  max-width: calc(100vw - var(--margin));
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+</style>
