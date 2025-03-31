@@ -65,7 +65,7 @@ sections:
       text: ""
     design:
       spacing:
-        padding: ["1250px", "0px", "1250px", "0px"]  # 垂直30px/水平0
+        padding: ["1300px", "0px", "1300px", "0px"]  # 垂直30px/水平0
       css_class: dark
       background:
         color: white
