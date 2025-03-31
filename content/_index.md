@@ -54,10 +54,29 @@ sections:
       title: |
         Overview of All Sub-datasets
       text: |-
-        <div style="text-align: center;"> <img src="web.svg" alt="" style="max-width: 100%; height: auto;"></div>
       design:
         spacing:
-          padding: ["1000px", "0px", "1000px", "0px"]  # 垂直30px/水平0
+          padding: ["0px", "0px", "0px", "0px"]  # 垂直30px/水平0
+  
+  - block: resume-biography-3
+    content:
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      # username: admin
+      text: ""
+    design:
+      spacing:
+        padding: ["1000px", "0px", "1000px", "0px"]  # 垂直30px/水平0
+      css_class: dark
+      background:
+        color: white
+        image:
+          # Add your image background to `assets/media/`.
+          filename: web.svg
+          filters:
+            brightness: 1.0
+          size: actual
+          position: center
+          parallax: false
 
   # - block: markdown
   #   content:
