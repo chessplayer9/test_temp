@@ -36,6 +36,14 @@ sections:
         ## Semantic Shift OOD Detection & OSR
 
         Home page of the large-scale fine-grained open-world remote-sensing datasets and benchmark OpenEarthSensing (OES) for various open-world remote-sensing downstream tasks, mainly including evaluating the ability of models to detect semantic shifts, adapt to covariate shifts, and continuously update the parameters without forgetting learned knowledge. OES includes 189 scene and object categories, covering the vast majority of potential semantic shifts that may occur in the real world. To provide a more comprehensive testbed for evaluating the generalization performance, OES encompasses five data domains with significant covariate shifts, including two RGB satellite domains, one RGB aerial domain, one multi-spectral RGB domain, and one infrared domain.
+
+        ## Covariate Shift OOD Detection & Generalization
+
+        ## Class Incremental Learning
+
+        ## Domain-Incremental Learning
+
+        ## Coarse-to-Fine Few-shot Class-Incremental Learning
         {{< /test >}}
       design:
         spacing:
