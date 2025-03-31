@@ -66,7 +66,7 @@ sections:
     id: overview
     content:
       title: |
-        Overview of All Sub-datasets
+        Overview of All Sub-Datasets
       text: |-
       design:
         spacing:
@@ -79,7 +79,7 @@ sections:
       text: ""
     design:
       spacing:
-        padding: ["1300px", "0px", "1300px", "0px"]  # 垂直30px/水平0
+        padding: ["1000px", "0px", "1000px", "0px"]  # 垂直30px/水平0
       css_class: dark
       background:
         color: white
