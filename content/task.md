@@ -33,7 +33,7 @@ sections:
   - block: markdown
     content:
       title: |
-        <style> .no-wrap-center {white-space: nowrap; text-align: left;}</style><div class="no-wrap-center">Semantic Shift OOD Detection & OSR</div>
+        <style> .no-wrap-left {white-space: nowrap; text-align: left;}</style><div class="no-wrap-left">Semantic Shift OOD Detection & OSR</div>
       text: |-
       design:
         spacing:
