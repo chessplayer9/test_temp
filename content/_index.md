@@ -60,7 +60,7 @@ sections:
       text: |-
       design:
         spacing:
-          padding: ["0px", "0px", "50px", "0px"]  # 垂直30px/水平0
+          padding: ["0px", "0px", "100px", "0px"]  # 垂直30px/水平0
 
   - block: markdown
     id: overview
