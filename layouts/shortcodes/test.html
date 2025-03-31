@@ -1,21 +1,3 @@
-<!-- layouts/shortcodes/feature.html -->
-<div class="feature-box">
-    {{ with .Get "icon" }}
-      <img src="{{ . }}" class="feature-icon">
-    {{ end }}
-    <h3>{{ .Get "title" }}</h3>
-    <div class="feature-content">
-      {{ .Inner | markdownify }}
-    </div>
-  </div>
-  
-  <style>
-  .feature-box {
-    border: 1px solid #eee;
-    padding: 20px;
-    margin: 15px 0;
-  }
-  .feature-icon {
-    width: 50px;
-  }
-  </style>
+<div style="max-width: 100vw; margin-left: calc(-50vw + 50%);">
+  {{ .Inner }}
+</div>
