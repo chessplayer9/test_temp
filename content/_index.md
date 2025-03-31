@@ -70,7 +70,7 @@ sections:
       text: |-
       design:
         spacing:
-          padding: ["1000px", "0px", "0px", "0px"]  # 垂直30px/水平0
+          padding: ["0px", "0px", "0px", "0px"]  # 垂直30px/水平0
   
   - block: resume-biography-3
     content:
