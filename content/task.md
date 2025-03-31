@@ -33,7 +33,12 @@ sections:
   - block: resume-biography-3
     content:
       text: |
-        <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>调整文字与网页左侧的间距</title><style>body {font-family: Arial, sans-serif;line-height: 1.6;margin: 0;padding-left: 20px; /* 设置左侧间距为20px */}.content {max-width: 800px;margin: 0 auto;padding: 20px;background-color: #f9f9f9;}</style></head><body><div class="content"><h1>这是标题</h1><p>这是一段文字，通过设置CSS中的padding属性，您可以调整文字与网页左侧的间距。</p></div></body></html>
+        {{< html >}}
+            <div>
+                <h1>This is an HTML heading</h1>
+                <p>This is a paragraph of HTML content.</p>
+                </div>
+        {{< /html >}}
     design:
       spacing:
         padding: ["310px", "0px", "310px", "0px"]  # 垂直30px/水平0
