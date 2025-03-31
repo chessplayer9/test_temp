@@ -31,10 +31,12 @@ sections:
   - block: markdown
     content:
       text: |
-        {{< myshortcode >}}
-            这是自定义警告内容  
-            支持 **Markdown** 格式
-        {{< /myshortcode >}}
+        {{< rawhtml >}}
+            <div class="my-component">
+                <h2>这是原生HTML</h2>
+                <p>直接嵌入的内容</p>
+            </div>
+        {{< /rawhtml >}}
       design:
         spacing:
           padding: ["0px", "0px", "0px", "0px"]  # 垂直30px/水平0.
