@@ -10,18 +10,18 @@ main:
   - name: Overview
     url: /#overview
     weight: 11
-  - name: Talks
+  - name: Dataset
     url: /#talks
     weight: 12
-  - name: News
+  - name: Task
     url: /#news
     weight: 13
-  - name: Experience
+  - name: Framework
     url: experience/
     weight: 20
-  - name: Projects
+  - name: People
     url: projects/
     weight: 30
-  - name: Teaching
-    url: teaching/
-    weight: 40
+  # - name: Teaching
+  #   url: teaching/
+  #   weight: 40
