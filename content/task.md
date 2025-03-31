@@ -10,26 +10,33 @@ design:
 
 # Page sections
 sections:
-  - block: resume-experience
+  - block: resume-biography-3
     content:
-      username: admin
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      # username: admin
+      text: ""
     design:
-      # Hugo date format
-      date_format: 'January 2006'
-      # Education or Experience section first?
-      is_education_first: false
-  - block: resume-skills
+      spacing:
+        padding: ["265px", "0px", "270px", "0px"]  # 垂直30px/水平0
+      css_class: dark
+      background:
+        color: white
+        image:
+          # Add your image background to `assets/media/`.
+          filename: ICCV.png
+          filters:
+            brightness: 1.0
+          size: actual
+          position: center
+          parallax: false  
+
+  - block: markdown
+    id: overview
     content:
-      title: Skills & Hobbies
-      username: admin
-    design:
-      show_skill_percentage: false
-  - block: resume-awards
-    content:
-      title: Awards
-      username: admin
-  - block: resume-languages
-    content:
-      title: Languages
-      username: admin
+      title: |
+      text: |-
+
+      design:
+        spacing:
+          padding: ["0px", "0px", "0px", "0px"]  # 垂直30px/水平0.
 ---
