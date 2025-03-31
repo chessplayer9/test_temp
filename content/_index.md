@@ -22,7 +22,7 @@ sections:
         color: white
         image:
           # Add your image background to `assets/media/`.
-          filename: ICCV_intro.svg
+          filename: ICCV_intro.png
           filters:
             brightness: 1.0
           size: actual
@@ -85,7 +85,7 @@ sections:
         color: white
         image:
           # Add your image background to `assets/media/`.
-          filename: web.svg
+          filename: web.png
           filters:
             brightness: 1.0
           size: actual
