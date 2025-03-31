@@ -33,14 +33,14 @@ sections:
   - block: markdown
     content:
       title: |
+        <style>.text {font-size: 18px;line-height: 1.6;}strong {font-weight: bold;color: red;}</style><div class="text">Home page of the large-scale fine-grained open-world remote-sensing datasets and benchmark <strong>OpenEarthSensing (OES)</strong> for various open-world remote-sensing downstream tasks, mainly including evaluating the ability of models to detect semantic shifts, adapt to covariate shifts, and continuously update the parameters without forgetting learned knowledge. OES includes 189 scene and object categories, covering the vast majority of potential semantic shifts that may occur in the real world. To provide a more comprehensive testbed for evaluating the generalization performance, OES encompasses five data domains with significant covariate shifts, including two RGB satellite domains, one RGB aerial domain, one multi-spectral RGB domain, and one infrared domain.  </div>
       text: |-
-        <div style="text-align: left; font-family: Arial; max-width: 800px; margin: 0 auto;">
-        <h2>Research Topics</h2>
-        <p style="font-weight: bold;">Semantic Shift OOD Detection & OSR</p>
-        <p style="font-weight: bold;">Covariate Shift OOD Detection & Generalization</p>
-        <p style="font-weight: bold;">Class Incremental Learning</p>
-        <p style="font-weight: bold;">Domain-Incremental Learning</p>
-        <p style="font-weight: bold;">Coarse-to-Fine Few-shot Class-Incremental Learning</p>
+        # <div style="text-align: left; font-family: Arial; max-width: 800px; margin: 0 auto;">
+        # <p style="font-weight: bold;">Semantic Shift OOD Detection & OSR</p>
+        # <p style="font-weight: bold;">Covariate Shift OOD Detection & Generalization</p>
+        # <p style="font-weight: bold;">Class Incremental Learning</p>
+        # <p style="font-weight: bold;">Domain-Incremental Learning</p>
+        # <p style="font-weight: bold;">Coarse-to-Fine Few-shot Class-Incremental Learning</p>
         </div>
       design:
         spacing:
