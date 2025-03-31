@@ -61,9 +61,7 @@ sections:
     content:
       title: |
       text: |-
-        <div style="max-width: 800px; margin: 0 auto;">
-        style="float: left; margin-right: 20px; margin-bottom: 10px; width: 300px;">
-        <p style="text-align: left;">这里是左对齐的文本内容。图片会浮动在左侧，文字自动环绕在图片右侧。这种方法适合简单的图文混排布局，文本会自然围绕图片排列。您可以继续添加更多文字内容。</p><div style="clear: both;"></div> <!-- 清除浮动 --></div>
+        <style>.wrap-shape {width: 300px;height: 200px;float: left;shape-outside: url(your-image.png);margin-right: 20px;}</style><div style="max-width: 800px; margin: 0 auto;"><img src="your-image.jpg" class="wrap-shape" alt="图片描述"><p style="text-align: left;">这里是左对齐的文本内容。使用shape-outside属性可以让文字按照图片的实际形状进行环绕，适合非矩形图片。</p></div>
       design:
         spacing:
           padding: ["0px", "0px", "0px", "0px"]  # 垂直30px/水平0.
