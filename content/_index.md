@@ -50,6 +50,7 @@ sections:
           padding: ["0px", "0px", "0px", "0px"]  # 垂直30px/水平0
 
   - block: markdown
+    id: overview
     content:
       title: |
         Overview of All Sub-datasets
@@ -59,7 +60,6 @@ sections:
           padding: ["0px", "0px", "0px", "0px"]  # 垂直30px/水平0
   
   - block: resume-biography-3
-    id: overview
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       # username: admin
@@ -91,17 +91,18 @@ sections:
   #     text: |-
   #       [[paper]](https://arxiv.org/abs/2502.20668) \| [[code]](https://github.com/HAIV-Lab/openhaiv)
 
-  - block: collection
-    id: overview
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      view: article-grid
-      columns: 2
+  # - block: collection
+  #   id: overview
+  #   content:
+  #     title: Featured Publications
+  #     filters:
+  #       folders:
+  #         - publication
+  #       featured_only: true
+  #   design:
+  #     view: article-grid
+  #     columns: 2
+
   - block: collection
     content:
       title: Recent Publications
