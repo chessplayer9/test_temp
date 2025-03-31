@@ -57,7 +57,7 @@ sections:
         <div style="text-align: center;"> <img src="web.svg" alt="" style="max-width: 100%; height: auto;"></div>
       design:
         spacing:
-          padding: ["0px", "0px", "0px", "0px"]  # 垂直30px/水平0
+          padding: ["1000px", "0px", "1000px", "0px"]  # 垂直30px/水平0
 
   # - block: markdown
   #   content:
