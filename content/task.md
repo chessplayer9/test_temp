@@ -61,7 +61,7 @@ sections:
     content:
       title: |
       text: |-
-        <style>.wrap-shape {width: 300px;height: 200px;float: left;shape-outside: url(ICCV.png);margin-right: 20px;}</style><div style="max-width: 800px; margin: 0 auto;"><img src="your-image.jpg" class="wrap-shape" alt="图片描述"><p style="text-align: left;">这里是左对齐的文本内容。使用shape-outside属性可以让文字按照图片的实际形状进行环绕，适合非矩形图片。</p></div>
+        <!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>调整文字与网页左侧的间距</title><style>body {font-family: Arial, sans-serif;line-height: 1.6;margin: 0;padding-left: 20px; /* 设置左侧间距为20px */}.content {max-width: 800px;margin: 0 auto;padding: 20px;background-color: #f9f9f9;}</style></head><body><div class="content"><h1>这是标题</h1><p>这是一段文字，通过设置CSS中的padding属性，您可以调整文字与网页左侧的间距。</p></div></body></html>
       design:
         spacing:
           padding: ["0px", "0px", "0px", "0px"]  # 垂直30px/水平0.
