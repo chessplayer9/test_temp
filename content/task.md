@@ -41,6 +41,12 @@ sections:
 
         ## Class Incremental Learning
 
+        ### Random
+
+        ### Coarse
+
+        ### Scale
+
         ## Domain-Incremental Learning
 
         ## Coarse-to-Fine Few-shot Class-Incremental Learning
