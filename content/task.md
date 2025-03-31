@@ -28,9 +28,10 @@ sections:
           size: actual
           position: center
           parallax: false  
+          
   - block: markdown
     content:
-      text: |
+      text: |-
         {{< rawhtml >}}
             <div class="my-component">
                 <h2>这是原生HTML</h2>
