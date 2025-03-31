@@ -11,10 +11,10 @@ main:
     url: /#overview
     weight: 11
   - name: Dataset
-    url: /#dataset
+    url: dataset/
     weight: 12
   - name: Task
-    url: /#news
+    url: task/
     weight: 13
   - name: Framework
     url: experience/
