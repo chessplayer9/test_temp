@@ -20,7 +20,7 @@ sections:
 
         ## Sub-dataset 3
         The data from Sub-dataset 3 is sourced from CC3M and RS5M. To expand the diversity included in the dataset, we consider retrieving aerial images with the same semantics or categories from above web datasets. Sub-dataset 3 contains 11,037 images with 137 classes, which are included in the 187 classes in Sub-dataset 1. The file structure of the dataset is as follows:
-        ```
+        ```text
         sub-dataset3-Aerial-domain3/
         ├── ALL/ (All 11,037 images with 137 classes.)
         │   ├── train/ (Train set)
