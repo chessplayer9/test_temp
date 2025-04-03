@@ -37,7 +37,9 @@ sections:
         ### Semantic Shift OOD Detection & OSR
         Recent work highlights a strong correlation between OOD detection and OSR in both settings and performance. Both tasks detect new categories with shifted semantics, while OSR also requires maintaining in-distribution (ID) accuracy. OES supports evaluation of a model's ability to handle semantic shifts. Unlike existing remote sensing benchmarks that randomly split ID and OOD samples, OES consider the semantic shift degree between coarse and fine classes, aligning the setup with real-world deployment scenarios.
         ### Covariate Shift OOD Detection & Generalization
-
+        Covariate shift OOD detection emphasizes robustness to covariate shifts, also referred to as full-spectrum OOD detection, where the ID data remain semantically consistent, while covariates vary. Given the practical needs of remote sensing, we focus on the following shifts:
+            * **Resampling bias**, requiring model generalization across varying acquisition parameters (angle, height, resolution, time) within the same modality; 
+            * **Modal shift**, demanding generalization across different modalities (satellites, aerial images) for the same semantic categories.
         ## Incremental Learning
 
         ### Class Incremental Learning
