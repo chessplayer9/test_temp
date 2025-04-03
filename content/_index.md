@@ -68,10 +68,10 @@ sections:
         {{< test margin="625px" bg="#ffffff" >}}
         ## Highlights
         - **Multiple and diverse domains**: OES comprises five sub-datasets with five distinct domains, enabling it to serve as a testbed for various generalization tasks. We randomly select 2,000 images from each domain and utilize GeoRSCLIP to extract features. The t-SNE visualization is presented with each color representing a different domain. Notably, even though sub-dataset 1 and sub-dataset 2 both originate from satellite imagery, there is a significant domain shift due to the varying capturing conditions. Furthermore, satellite, aerial, and infrared images display considerable differences as well. These domain shifts highlight the significant evaluation values and challenges posed by OES.
-        <img src="domains5-1.png" width=100%>  
+        <img src="domains5-1.png" width=100% />  
         - **Wide span of scales**: To accommodate the scale variations present in remote sensing images, OES has been curated to include a diverse range of data comprising 152 scenes and 37 objects for classification. To delve deeper into the intricacies of scale diversity within the OES dataset, *Qwen-VL-chat* is employed to evaluate the image scales associated with both scene and object categories. The distribution of OES across different scales is visually represented. The extensive spectrum of scale variations within OES introduces a novel challenge to the realm of remote sensing recognition.
-        <img src="object_scale-1.png" width=49%>
-        <img src="scene_scale-1.png" width=49%>
+        <img src="object_scale-1.png" width=49% />
+        <img src="scene_scale-1.png" width=49% />
         - **Multiple coarse categories**: OES comprises 10 coarse-grained categories, which effectively cover the majority of scenarios encountered in remote sensing applications. Each coarse-grained category is further divided into 10 to 27 fine-grained subcategories, culminating in a total of 189 distinct classifications. The information regarding all coarse-grained and fine-grained categories included in OES shown below:
         {{< /test >}}
     design:
