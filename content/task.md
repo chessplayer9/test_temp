@@ -43,12 +43,10 @@ sections:
         ## Incremental Learning
 
         ### Class Incremental Learning
-
-        #### Random
-
-        #### Coarse
-
-        #### Scale
+        The rapid advancement of remote sensing generates vast amounts of high-quality images daily, necessitating models to recognize novel classes in open-world scenarios. However, existing CIL benchmarks in remote sensing are constrained by limited category diversity, restricted coarse-grained coverage, and uniform data scales, inadequately capturing real-world complexities. To address these limitations, we evaluate existing CIL methods using three benchmarks:
+        - **Random**, which follows the widely-used CIL setting and randomly assign classes to 10 sessions equally.
+        - **Coarse**, setting each session to contain fine classes of one coarse category to simulate the continuous learning from data captured by different types of dedicated satellites by the model. We divide all the classes into 10 coarse categories corresponding to 10 sessions
+        - **Scale**, which aims to replicate the continual process from large to small scales. The 10 sessions are evenly distributed categories based on a progression from large to small scales.
 
         ### Domain-Incremental Learning
 
