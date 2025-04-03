@@ -16,7 +16,7 @@ sections:
       text: ""
     design:
       spacing:
-        padding: ["0px", "0px","200px","0px"]  # 垂直30px/水平0
+        padding: ["0px", "0px","600px","0px"]  # 垂直30px/水平0
       css_class: dark
       background:
         color: white
@@ -41,19 +41,25 @@ sections:
         {{< center >}}
         ## Team Representatives
         {{< /center >}}
-         xx
+
+         - **Xiang Xiang**, Huazhong University of Science and  Technology, China
+
         {{< center >}}
         ## Core Members
         {{< /center >}}
+
         ### Dataset
-          - <strong>Zhuo Xu</strong>, Huazhong University of Science and   Technology, China
-          - <strong>Yao Deng</strong>, Huazhong University of Science and Technology, China
-          - <strong>Qinhao Zhou</strong>, Huazhong University of Science and Technology, China
-          - <strong>Yifan Liang</strong>, Huazhong University of Science and Technology, China
+
+           - <strong>Zhuo Xu</strong>, Huazhong University of Science and   Technology, China
+           - <strong>Yao Deng</strong>, Huazhong University of Science and Technology, China
+           - <strong>Qinhao Zhou</strong>, Huazhong University of Science and Technology, China
+           - <strong>Yifan Liang</strong>, Huazhong University of Science and Technology, China
+  
         ### Framework
-          - <strong>Zhuo Xu</strong>, Huazhong University of Science and Technology, China
-          - <strong>Yao Deng</strong>, Huazhong University of Science and Technology, China
-          - <strong>Qinhao Zhou</strong>, Huazhong University of Science and Technology, China
-          - <strong>Yifan Liang</strong>, Huazhong University of Science and Technology, China
+
+           - <strong>Zhuo Xu</strong>, Huazhong University of Science and Technology, China
+           - <strong>Yao Deng</strong>, Huazhong University of Science and Technology, China
+           - <strong>Qinhao Zhou</strong>, Huazhong University of Science and Technology, China
+           - <strong>Yifan Liang</strong>, Huazhong University of Science and Technology, China
         {{< /test >}}
 ---
