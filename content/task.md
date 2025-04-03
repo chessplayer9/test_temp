@@ -51,12 +51,10 @@ sections:
         ### Coarse-to-Fine Few-shot Class-Incremental Learning (C2FSCIL)
         In C2FSCIL, we provide the model with all training samples accompanied by coarse labels in the base session, including 10 coarse classes. In the subsequent incremental sessions, we introduce samples with fine labels for each of the 10 coarse classes, supplying only 5 samples per class at each session, which is consistent with the few-shot setting.
         {{< /test >}}
-      design:
-        spacing:
-          padding: ["0px", "0px", "0px", "0px"]  # 垂直30px/水平0.
-        design:
-            width: full
-
+    design:
+      spacing:
+        padding: ["0px", "0px", "0px", "0px"]  # 垂直30px/水平0.
+        
   
       
 
