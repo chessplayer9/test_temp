@@ -33,10 +33,9 @@ sections:
     content:
       text: |
         {{< test margin="625px" bg="#ffffff" >}}
-        ## Full-spectrum OOD Detection
-        
+        ## Full-spectrum Out-of-Distribution (OOD) Detection
         ### Semantic Shift OOD Detection & OSR
-        Home page of the large-scale fine-grained open-world remote-sensing datasets and benchmark OpenEarthSensing (OES) for various open-world remote-sensing downstream tasks, mainly including evaluating the ability of models to detect semantic shifts, adapt to covariate shifts, and continuously update the parameters without forgetting learned knowledge. OES includes 189 scene and object categories, covering the vast majority of potential semantic shifts that may occur in the real world. To provide a more comprehensive testbed for evaluating the generalization performance, OES encompasses five data domains with significant covariate shifts, including two RGB satellite domains, one RGB aerial domain, one multi-spectral RGB domain, and one infrared domain.
+        Recent work highlights a strong correlation between OOD detection and OSR in both settings and performance. Both tasks detect new categories with shifted semantics, while OSR also requires maintaining in-distribution (ID) accuracy. OES supports evaluation of a model's ability to handle semantic shifts. Unlike existing remote sensing benchmarks that randomly split ID and OOD samples, OES consider the semantic shift degree between coarse and fine classes, aligning the setup with real-world deployment scenarios.
         ### Covariate Shift OOD Detection & Generalization
 
         ## Incremental Learning
