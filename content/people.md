@@ -16,7 +16,7 @@ sections:
       text: ""
     design:
       spacing:
-        padding: ["200px", "0px"]  # 垂直30px/水平0
+        padding: ["0px", "0px"]  # 垂直30px/水平0
       css_class: dark
       background:
         color: white
@@ -25,7 +25,7 @@ sections:
           filename: people.jpg
           filters:
             brightness: 1.0
-          size: actual
+          size: cover
           position: center
           parallax: false
 
@@ -41,11 +41,19 @@ sections:
         {{< center >}}
         ## Team Representatives
         {{< /center >}}
-        - **xx**
+         xx
         {{< center >}}
         ## Core Members
         {{< /center >}}
         ### Dataset
+          * <strong>Zhuo Xu</strong>, Huazhong University of Science and   Technology, China
+          * <strong>Yao Deng</strong>, Huazhong University of Science and Technology, China
+          * <strong>Qinhao Zhou</strong>, Huazhong University of Science and Technology, China
+          * <strong>Yifan Liang</strong>, Huazhong University of Science and Technology, China
         ### Framework
+          * <strong>Zhuo Xu</strong>, Huazhong University of Science and Technology, China
+          * <strong>Yao Deng</strong>, Huazhong University of Science and Technology, China
+          * <strong>Qinhao Zhou</strong>, Huazhong University of Science and Technology, China
+          * <strong>Yifan Liang</strong>, Huazhong University of Science and Technology, China
         {{< /test >}}
 ---
