@@ -16,13 +16,13 @@ sections:
       text: ""
     design:
       spacing:
-        padding: ["920px", "0px", "920px", "0px"]  # 垂直30px/水平0
+        padding: ["200px", "0px"]  # 垂直30px/水平0
       css_class: dark
       background:
         color: white
         image:
           # Add your image background to `assets/media/`.
-          filename: 24gf-ellipsiws.png
+          filename: people.jpg
           filters:
             brightness: 1.0
           size: actual
@@ -32,13 +32,16 @@ sections:
 
   - block: markdown
     content:
-      title: '<span style="font-size: 24px;">Team Member</span>'
+      #title: '<span style="font-size: 24px;">Team Member</span>'
       text: |
         {{< test margin="625px" bg="#ffffff" >}}
         {{< center >}}
-        ## Team Representatives
-        - **xx**
+        # Team Member
         {{< /center >}}
+        {{< center >}}
+        ## Team Representatives
+        {{< /center >}}
+        - **xx**
         {{< center >}}
         ## Core Members
         {{< /center >}}
