@@ -10,15 +10,18 @@ design:
 # Page sections
 sections:
   - block: resume-biography-3
--  content:
--     text: ""
--  design:
+    content:
+      # Choose a user profile to display (a folder name within `content/authors/`)
+      # username: admin
+      text: ""
+    design:
       spacing:
-        padding: ["265px", "0px", "270px", "0px"]  # 垂直30px/水平0
+        padding: ["920px", "0px", "920px", "0px"]  # 垂直30px/水平0
       css_class: dark
       background:
         color: white
         image:
+          # Add your image background to `assets/media/`.
           filename: 24gf-ellipsiws.png
           filters:
             brightness: 1.0
@@ -34,7 +37,7 @@ sections:
         {{< test margin="625px" bg="#ffffff" >}}
         {{< center >}}
         ## Team Representatives
-           xx
+        - **xx**
         {{< /center >}}
         {{< center >}}
         ## Core Members
