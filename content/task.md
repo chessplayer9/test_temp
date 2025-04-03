@@ -39,7 +39,7 @@ sections:
         ### Covariate Shift OOD Detection & Generalization
         Covariate shift OOD detection emphasizes robustness to covariate shifts, also referred to as full-spectrum OOD detection, where the ID data remain semantically consistent, while covariates vary. Given the practical needs of remote sensing, we focus on the following shifts:
 
-        - **Resampling bias**, requiring model generalization across varying acquisition parameters (angle, height, resolution, time) within the same modality; 
+        <ul style="list-style-type: disc;"> <!-- 实心圆（默认） --><li>自定义实心圆点</li></ul>**Resampling bias**, requiring model generalization across varying acquisition parameters (angle, height, resolution, time) within the same modality; 
         - **Modal shift**, demanding generalization across different modalities (satellites, aerial images) for the same semantic categories.
 
         ## Incremental Learning
