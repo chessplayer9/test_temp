@@ -5,17 +5,40 @@ type: landing
 
 design:
   # Section spacing
-  spacing: '5rem'
+  spacing: '0rem'
 
 # Page sections
 sections:
+  - block: resume-biography-3
+-  content:
+-     text: ""
+-  design:
+      spacing:
+        padding: ["265px", "0px", "270px", "0px"]  # 垂直30px/水平0
+      css_class: dark
+      background:
+        color: white
+        image:
+          filename: 24gf-ellipsiws.png
+          filters:
+            brightness: 1.0
+          size: actual
+          position: center
+          parallax: false
+
+
   - block: markdown
     content:
-      title: Team Member
+      title: '<span style="font-size: 24px;">Team Member</span>'
       text: |
         {{< test margin="625px" bg="#ffffff" >}}
+        {{< center >}}
         ## Team Representatives
+           xx
+        {{< /center >}}
+        {{< center >}}
         ## Core Members
+        {{< /center >}}
         ### Dataset
         ### Framework
         {{< /test >}}
