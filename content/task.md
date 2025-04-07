@@ -53,7 +53,7 @@ sections:
 
         #### 1. Resampling Bias Scenario
         - **ID Test Set**: Resampled from Sub-Dataset 2 (`./sub-dataset2-RGB-domain2/ID/test`).
-        - **ID Train Set**: Unchanged (from Sub-Dataset 1: `./sub-dataset1-RGB-domain1/ID/train`).
+        - **ID Train Set**: Unchanged from Sub-Dataset 1 (`./sub-dataset1-RGB-domain1/ID/train`).
 
         ##### OOD Datasets:
         - **`OOD-Easy`**: 48 classes from Sub-Dataset 1 (minor shifts).
