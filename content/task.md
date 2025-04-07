@@ -33,13 +33,14 @@ sections:
     content:
       text: |
         {{< test margin="625px" bg="#ffffff" >}}
+        <style>code {font-family: monospace;background-color: #f0f0f0;padding: 0.2em 0.4em;border-radius: 3px;color: #c7254e;}code::before, code::after {content: none !important;}</style>
         ## Full-spectrum Out-of-Distribution (OOD) Detection
         ### Semantic Shift OOD Detection & OSR
         Recent work highlights a strong correlation between OOD detection and OSR in both settings and performance. Both tasks detect new categories with shifted semantics, while OSR also requires maintaining in-distribution (ID) accuracy. OES supports evaluation of a model's ability to handle semantic shifts. Unlike existing remote sensing benchmarks that randomly split ID and OOD samples, OES consider the semantic shift degree between coarse and fine classes, aligning the setup with real-world deployment scenarios.
 
         We unify the tasks of semantic shift OOD detection and open-set recognition (OSR) into a single test task to evaluate the model's ability to handle semantic shifts.
 
-        - **ID Classes**: We use the 94 classes as ID classes, defined in <style>code {font-family: monospace;background-color: #f0f0f0;padding: 0.2em 0.4em;border-radius: 3px;color: #c7254e;}code::before, code::after {content: none !important;}</style><p><code>./sub-dataset1-RGB-domain1/OOD_split/ID_94.txt</code></p>.
+        - **ID Classes**: We use the 94 classes as ID classes, defined in `./sub-dataset1-RGB-domain1/OOD_split/ID_94.txt`.
         
         - **Training/Test Sets**: Organized in `./sub-dataset1-RGB-domain1/ID/train` and `./sub-dataset1-RGB-domain1/ID/test`.
 
