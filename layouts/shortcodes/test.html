@@ -34,14 +34,19 @@
 ">
   {{ .Inner | markdownify | safeHTML}}
   <style>
-    /* 强制保障代码样式 */
-    code {
+    /* 强制代码样式 */
+    :not(pre) > code {
       display: inline !important;
       padding: 0.2em 0.4em !important;
-      background: rgba(175, 184, 193, 0.2) !important;
+      margin: 0 !important;
+      background: rgba(175,184,193,0.2) !important;
       border-radius: 6px !important;
       font-family: ui-monospace, SFMono-Regular, monospace !important;
       font-size: 85% !important;
+      color: inherit !important;
+      line-height: normal !important;
+      white-space: normal !important;
+      word-break: normal !important;
     }
   </style>
 </div>
