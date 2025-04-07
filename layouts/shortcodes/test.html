@@ -38,7 +38,7 @@
   overflow: hidden;
   {{ if .Get "bg" }}background: {{ .Get "bg" }};{{ end }}
 ">
-  {{ .Inner | markdownify}}
+  {{ .Inner | markdownify | safeHTML}}
 </div>
 
 <!-- <div class="fullwidth-container" 
