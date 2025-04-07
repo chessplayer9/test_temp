@@ -46,26 +46,6 @@
   {{ if .Get "bg" }}background: {{ .Get "bg" }};{{ end }}
 ">
   {{ .Inner | markdownify | safeHTML }}
-
-  <style>
-    /* 强制代码块样式 */
-    code {
-      display: inline !important;
-      padding: 0.2em 0.4em !important;
-      background: #f0f0f0 !important;
-      border-radius: 3px !important;
-      font-family: monospace, SFMono-Regular, Consolas, "Liberation Mono", Menlo !important;
-      font-size: 85% !important;
-      color: #333 !important;
-      line-height: 1.4 !important;
-    }
-    
-    /* 防止pre标签影响 */
-    pre code {
-      background: transparent !important;
-      padding: 0 !important;
-    }
-  </style>
 </div>
 
 <!-- <div class="fullwidth-container" 
