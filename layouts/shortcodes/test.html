@@ -45,9 +45,7 @@
   margin-right: calc(-50vw + {{ .Get "margin" | default "120px" }}/2);
   {{ if .Get "bg" }}background: {{ .Get "bg" }};{{ end }}
 ">
-  {{ $content := .Inner }}
-  {{ $content = replaceRE "(`+)(.*?)" "<code>$2</code>" $content }}
-  {{ $content | markdownify | safeHTML }}
+  {{ .Inner | markdownify | safeHTML }}
 
   <style>
     /* 强制代码块样式 */
