@@ -46,7 +46,6 @@
   {{ if .Get "bg" }}background: {{ .Get "bg" }};{{ end }}
 ">
   {{ $content := .Inner }}
-  {{/* 确保所有反引号内容都被code标签包裹 */}}
   {{ $content = replaceRE "(`+)(.*?)\\1" "<code>$2</code>" $content }}
   {{ $content | markdownify | safeHTML }}
 
