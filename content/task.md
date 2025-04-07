@@ -39,7 +39,7 @@ sections:
 
         We unify the tasks of semantic shift OOD detection and open-set recognition (OSR) into a single test task to evaluate the model's ability to handle semantic shifts.
         
-        - **ID Classes**: We use the 94 classes across different coarse-classes as in-distribution (ID) classes, defined in `./sub-dataset1-RGB-domain1/OOD_split/ID_94.txt`.
+        - **ID Classes**: We use the 94 classes across different coarse-classes as in-distribution (ID) classes, defined in`./sub-dataset1-RGB-domain1/OOD_split/ID_94.txt`.
         - **Training/Test Sets**: Organized in `./sub-dataset1-RGB-domain1/ID/train` and `./sub-dataset1-RGB-domain1/ID/test`.
 
         ### Covariate Shift OOD Detection & Generalization
