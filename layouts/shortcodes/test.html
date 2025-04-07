@@ -32,6 +32,10 @@
   overflow: hidden;
   {{ if .Get "bg" }}background: {{ .Get "bg" }};{{ end }}
 ">
+  {{ $content := .Inner }}
+  {{ if not (findRE "`.*`" $content) }}
+    {{ $content = printf "`%s`" $content }}
+  {{ end }}
   {{ .Inner | markdownify | safeHTML}}
   <style>
     /* 强制代码样式 */
