@@ -46,7 +46,7 @@
   {{ if .Get "bg" }}background: {{ .Get "bg" }};{{ end }}
 ">
   {{ $content := .Inner }}
-  {{ $content = replaceRE "(`+)(.*?)\\1" "<code>$2</code>" $content }}
+  {{ $content = replaceRE "(`+)(.*?)" "<code>$2</code>" $content }}
   {{ $content | markdownify | safeHTML }}
 
   <style>
