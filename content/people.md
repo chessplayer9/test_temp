@@ -25,7 +25,7 @@ sections:
           filename: people.jpg
           filters:
             brightness: 1.0
-          size: 800px auto
+          size: 1000px 600px
           position: center
           parallax: false
 
