@@ -16,7 +16,7 @@ sections:
       text: ""
     design:
       spacing:
-        padding: ["0px", "0px","200px","0px"]  # 垂直30px/水平0
+        padding: ["265px", "0px","270px","0px"]  # 垂直30px/水平0
       css_class: dark
       background:
         color: white
@@ -25,7 +25,7 @@ sections:
           filename: people.jpg
           filters:
             brightness: 1.0
-          size: 1000px 600px
+          size: 1100px 600px
           position: center
           parallax: false
 
