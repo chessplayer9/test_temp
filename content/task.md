@@ -33,13 +33,58 @@ sections:
     content:
       text: |
         {{< test margin="625px" bg="#ffffff" >}}
+        <style>code {font-family: monospace;background-color: #f0f0f0;padding: 0.2em 0.4em;border-radius: 3px;color: #c7254e;}code::before, code::after {content: none !important;}</style>
         ## Full-spectrum Out-of-Distribution (OOD) Detection
         ### Semantic Shift OOD Detection & OSR
         Recent work highlights a strong correlation between OOD detection and OSR in both settings and performance. Both tasks detect new categories with shifted semantics, while OSR also requires maintaining in-distribution (ID) accuracy. OES supports evaluation of a model's ability to handle semantic shifts. Unlike existing remote sensing benchmarks that randomly split ID and OOD samples, OES consider the semantic shift degree between coarse and fine classes, aligning the setup with real-world deployment scenarios.
+
+        We unify the tasks of semantic shift OOD detection and open-set recognition (OSR) into a single test task to evaluate the model's ability to handle semantic shifts.
+
+        - **ID Classes**: We use the 94 classes as ID classes, defined in `./sub-dataset1-RGB-domain1/OOD_split/ID_94.txt`.
+        
+        - **Training/Test Sets**: Organized in `./sub-dataset1-RGB-domain1/ID/train` and `./sub-dataset1-RGB-domain1/ID/test`.
+
         ### Covariate Shift OOD Detection & Generalization
         Covariate shift OOD detection emphasizes robustness to covariate shifts, also referred to as full-spectrum OOD detection, where the ID data remain semantically consistent, while covariates vary. Given the practical needs of remote sensing, we focus on the following shifts:
         - **Resampling bias**, requiring model generalization across varying acquisition parameters (angle, height, resolution, time) within the same modality; 
         - **Modal shift**, demanding generalization across different modalities (satellites, aerial images) for the same semantic categories.
+
+        For each dataset exhibiting domain shift relative to Sub-Dataset 1, we define the following test tasks:
+
+        #### 1. Resampling Bias Scenario
+        - **ID Test Set**: Resampled from Sub-Dataset 2 (`./sub-dataset2-RGB-domain2/ID/test`).
+        - **ID Train Set**: Unchanged from Sub-Dataset 1 (`./sub-dataset1-RGB-domain1/ID/train`).
+
+        ##### OOD Datasets:
+        - **`OOD-Easy`**: 48 classes from Sub-Dataset 1 (minor shifts).
+        - **`OOD-Hard`**: 47 classes from Sub-Dataset 1 (significant shifts).
+        - **`Bias-OOD`**: 22 classes from Sub-Dataset 2 (shifts). Path: `./sub-dataset2-RGB-domain2/OOD/test`.
+        - **`SUN`**: As above.
+
+        #### 2. Aerial Modality-Shift Scenario
+        - **ID Test Set**: Aerial data from Sub-Dataset 3 (`./sub-dataset3-Aerial-domain3/ID/test`).
+        - **Train Set**: Unchanged (Sub-Dataset 1).
+
+        ##### OOD Datasets:
+        - **`Bias-OOD`**: 66 classes from Sub-Dataset 3. Path: `./sub-dataset3-Aerial-domain3/OOD/test`.
+        - **`SUN`**: As above.
+
+        #### 3. MSRGB Modality-Shift Scenario
+        - **ID Test Set**: MSRGB data from Sub-Dataset 4 (`./sub-dataset4-MSRGB-domain4/ID/test`).
+        - **Train Set**: Unchanged.
+
+        ##### OOD Datasets:
+        - **`Bias-OOD`**: 22 classes from Sub-Dataset 4. Path: `./sub-dataset4-MSRGB-domain4/OOD/test`.
+        - **`SUN`**: As above.
+
+        #### 4. IR Modality-Shift Scenario
+        - **ID Test Set**: IR data from Sub-Dataset 5 (`./sub-dataset5-IR-domain5/ID/test`).
+        - **Train Set**: Unchanged.
+
+        ##### OOD Datasets:
+        - **`Bias-OOD`**: 26 classes from Sub-Dataset 5. Path: `./sub-dataset5-IR-domain5/OOD/test`.
+        - **`SUN`**: As above.
+
         ## Incremental Learning
         ### Class Incremental Learning (CIL)
         The rapid advancement of remote sensing generates vast amounts of high-quality images daily, necessitating models to recognize novel classes in open-world scenarios. However, existing CIL benchmarks in remote sensing are constrained by limited category diversity, restricted coarse-grained coverage, and uniform data scales, inadequately capturing real-world complexities. To address these limitations, we evaluate existing CIL methods using three benchmarks:
@@ -55,6 +100,14 @@ sections:
       spacing:
         padding: ["0px", "0px", "0px", "0px"]  # 垂直30px/水平0.
         
+
+#   - block: markdown
+#     content:
+#       text: |
+#         `./sub-dataset2-RGB-domain2/ID/test`
+#     design:
+#       spacing:
+#         padding: ["0px", "0px", "0px", "0px"]  # 垂直30px/水平0.
   
       
 

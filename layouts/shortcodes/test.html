@@ -21,7 +21,7 @@
   {{ .Inner }}
 </div> -->
 
-<div style="
+<!-- <div style="
   max-width: calc(100vw - {{ .Get "margin" | default "120px" }});
   width: calc(100vw - {{ .Get "margin" | default "120px" }});
   position: relative;
@@ -33,6 +33,19 @@
   {{ if .Get "bg" }}background: {{ .Get "bg" }};{{ end }}
 ">
   {{ .Inner | markdownify}}
+</div> -->
+
+<div style="
+  max-width: calc(100vw - {{ .Get "margin" | default "120px" }});
+  width: calc(100vw - {{ .Get "margin" | default "120px" }});
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: calc(-50vw + {{ .Get "margin" | default "120px" }}/2);
+  margin-right: calc(-50vw + {{ .Get "margin" | default "120px" }}/2);
+  {{ if .Get "bg" }}background: {{ .Get "bg" }};{{ end }}
+">
+  {{ .Inner | markdownify | safeHTML }}
 </div>
 
 <!-- <div class="fullwidth-container" 
