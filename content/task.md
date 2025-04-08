@@ -89,12 +89,12 @@ sections:
         ### Class Incremental Learning (CIL)
         The rapid advancement of remote sensing generates vast amounts of high-quality images daily, necessitating models to recognize novel classes in open-world scenarios. However, existing CIL benchmarks in remote sensing are constrained by limited category diversity, restricted coarse-grained coverage, and uniform data scales, inadequately capturing real-world complexities. To address these limitations, we evaluate existing CIL methods using three benchmarks:
         - **Random**, which follows the widely-used CIL setting and randomly assign classes to 10 sessions equally.
-        - **Coarse**, setting each session to contain fine classes of one coarse category to simulate the continuous learning from data captured by different types of dedicated satellites by the model. We divide all the classes into 10 coarse categories corresponding to 10 sessions
-        - **Scale**, which aims to replicate the continual process from large to small scales. The 10 sessions are evenly distributed categories based on a progression from large to small scales.
+        - **Coarse**, setting each session to contain fine classes of one coarse category to simulate the continuous learning from data captured by different types of dedicated satellites by the model. We divide all the classes into 10 coarse categories corresponding to 10 sessions. The detailed information of the dataset split is defined in `.sub-dataset1-RGB-domain1/CIL_split/CIL_coarse_split.json`.
+        - **Scale**, which aims to replicate the continual process from large to small scales. The 10 sessions are evenly distributed categories based on a progression from large to small scales. The detailed information of the dataset split is defined in `.sub-dataset1-RGB-domain1/CIL_split/CIL_scale_split.json`.
         ### Domain-Incremental Learning (DIL)
-        To assess the model's adaptability to data from different domains, we benchmark DIL on OES.
+        To assess the model's adaptability to data from different domains, we benchmark DIL on OES. We select 50 categories containing the same semantic classes from RGB satellite (**Sub-dataset 1**), RGB aerial (**Sub-dataset 3**), MSRGB (**Sub-dataset 4**) and IR images (**Sub-dataset 5**). 
         ### Coarse-to-Fine Few-shot Class-Incremental Learning (C2FSCIL)
-        In C2FSCIL, we provide the model with all training samples accompanied by coarse labels in the base session, including 10 coarse classes. In the subsequent incremental sessions, we introduce samples with fine labels for each of the 10 coarse classes, supplying only 5 samples per class at each session, which is consistent with the few-shot setting.
+        In C2FSCIL, we provide the model with all training samples accompanied by coarse labels in the base session, including 10 coarse-grained classes and 189 fine-grained classes. In the subsequent incremental sessions, we introduce samples with fine labels for each of the 10 coarse classes, supplying only 5 samples per class at each session, which is consistent with the few-shot setting. The initial training phase learns all 10 coarse classes, while each subsequent incremental phase introduces 20 fine-grained classes.
         {{< /test >}}
     design:
       spacing:
