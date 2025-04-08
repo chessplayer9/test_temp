@@ -22,7 +22,7 @@ sections:
         color: white
         image:
           # Add your image background to `assets/media/`.
-          filename: flower.jpg
+          filename: people.jpg
           filters:
             brightness: 1.0
           size: actual
