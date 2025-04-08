@@ -25,7 +25,7 @@ sections:
           filename: people.jpg
           filters:
             brightness: 1.0
-          size: contain
+          size: 800px auto
           position: center
           parallax: false
 
@@ -36,30 +36,13 @@ sections:
       text: |
         {{< test margin="625px" bg="#ffffff" >}}
         {{< center >}}
-        # Team Member
-        {{< /center >}}
-        {{< center >}}
-        ## Team Representatives
+        ## Team Member
         {{< /center >}}
 
          - **Xiang Xiang**, Huazhong University of Science and  Technology, China
-
-        {{< center >}}
-        ## Core Members
-        {{< /center >}}
-
-        ### Dataset
-
-           - <strong>Zhuo Xu</strong>, Huazhong University of Science and   Technology, China
-           - <strong>Yao Deng</strong>, Huazhong University of Science and Technology, China
-           - <strong>Qinhao Zhou</strong>, Huazhong University of Science and Technology, China
-           - <strong>Yifan Liang</strong>, Huazhong University of Science and Technology, China
-  
-        ### Framework
-
-           - <strong>Zhuo Xu</strong>, Huazhong University of Science and Technology, China
-           - <strong>Yao Deng</strong>, Huazhong University of Science and Technology, China
-           - <strong>Qinhao Zhou</strong>, Huazhong University of Science and Technology, China
-           - <strong>Yifan Liang</strong>, Huazhong University of Science and Technology, China
+         - <strong>Zhuo Xu</strong>, Huazhong University of Science and   Technology, China
+         - <strong>Yao Deng</strong>, Huazhong University of Science and Technology, China
+         - <strong>Qinhao Zhou</strong>, Huazhong University of Science and Technology, China
+         - <strong>Yifan Liang</strong>, Huazhong University of Science and Technology, China
         {{< /test >}}
 ---
