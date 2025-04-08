@@ -16,16 +16,16 @@ sections:
       text: ""
     design:
       spacing:
-        padding: ["0px", "0px","500px","0px"]  # 垂直30px/水平0
+        padding: ["500px", "0px","500px","0px"]  # 垂直30px/水平0
       css_class: dark
       background:
         color: white
         image:
           # Add your image background to `assets/media/`.
-          filename: people.jpg
+          filename: flower.jpg
           filters:
             brightness: 1.0
-          size: cover
+          size: actual
           position: center
           parallax: false
 
