@@ -38,11 +38,45 @@ sections:
         {{< center >}}
         ## Team Member
         {{< /center >}}
+        <div class="team-container" style="
+          display: grid;
+          grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+          gap: 30px;
+          margin-top: 40px;
+      
+          <!-- Member 1 -->
+          <div class="team-member" style="text-align: center">
+            <img src="cutegirl.jpg" alt="Xiang Xiang" style="
+              width: 150px;
+              height: 150px;
+              object-fit: cover;
+              border-radius: 50%;
+              border: 3px solid #1976d2;
+              margin-bottom: 15px;
+            ">
+            <h3 style="margin: 10px 0 5px 0">Xiang Xiang</h3>
+            <p style="color: #666; margin: 0">Huazhong University of Science and Technology</p>
+          </div>
 
-         - **Xiang Xiang**, Huazhong University of Science and  Technology, China
-         - <strong>Zhuo Xu</strong>, Huazhong University of Science and   Technology, China
-         - <strong>Yao Deng</strong>, Huazhong University of Science and Technology, China
-         - <strong>Qinhao Zhou</strong>, Huazhong University of Science and Technology, China
-         - <strong>Yifan Liang</strong>, Huazhong University of Science and Technology, China
+          <!-- Member 2 -->
+          <div class="team-member" style="text-align: center">
+            <img src="zhuoxu.jpg" alt="Zhuo Xu" style="
+              width: 150px;
+              height: 150px;
+              object-fit: cover;
+              border-radius: 50%;
+              border: 3px solid #1976d2;
+              margin-bottom: 15px;
+            ">
+            <h3 style="margin: 10px 0 5px 0">Zhuo Xu</h3>
+            <p style="color: #666; margin: 0">Huazhong University of Science and Technology</p>
+          </div>
+        </div>
+      
+        #  - **Xiang Xiang**, Huazhong University of Science and  Technology, China
+        #  - <strong>Zhuo Xu</strong>, Huazhong University of Science and   Technology, China
+        #  - <strong>Yao Deng</strong>, Huazhong University of Science and Technology, China
+        #  - <strong>Qinhao Zhou</strong>, Huazhong University of Science and Technology, China
+        #  - <strong>Yifan Liang</strong>, Huazhong University of Science and Technology, China
         {{< /test >}}
 ---
