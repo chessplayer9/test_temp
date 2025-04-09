@@ -38,7 +38,8 @@ sections:
         {{< center >}}
         ## Team Member
         {{< /center >}}
-
+        
+        <!-- markdownlint-disable -->
         {{< team_grid >}}
           {{< team_member 
               img="/media/flower.jpg" 
