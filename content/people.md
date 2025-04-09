@@ -34,6 +34,10 @@ sections:
     content:
       #title: '<span style="font-size: 24px;">Team Member</span>'
       text: |
+        {{< test margin="625px" bg="#ffffff" >}}
+        {{< center >}}
+        ## Team Member
+        {{< /center >}}
 
         {{< team_grid >}}
            {{< team_member 
@@ -48,17 +52,6 @@ sections:
         {{< /team_grid >}}
 
 
-
-
-
-
-
-
-        <!-- markdownlint-disable -->
-        {{< test margin="625px" bg="#ffffff" >}}
-        {{< center >}}
-        ## Team Member
-        {{< /center >}}
 
     
         <div class="team-grid" style="
