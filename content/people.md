@@ -56,12 +56,12 @@ sections:
         ">
       
           <!-- Member 1 -->
-          <div class="member-card" style="
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-          ">
+          # <div class="member-card" style="
+          #   background: white;
+          #   padding: 20px;
+          #   border-radius: 8px;
+          #   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+          # ">
            {{< team_member 
               img="/test_temp/media/flower.jpg" 
               name="Xiang Xiang" 
