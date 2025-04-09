@@ -75,10 +75,10 @@ sections:
             flex-shrink: 0;       /* 防止图片被压缩 */
             
            ">
-           <div style="flex: 1; display: flex; flex-direction: column; gap: 6px;">   <!-- 文字容器 -->
-            <h3 style="margin: 0; font-size: 1.1em;">Zhuo Xu</h3>
-            <p style="margin: 0; color: #555; font-size: 0.9em;">Huazhong University of Science and Technology</p>
-            <p style="margin: 0; color: #555; font-size: 0.9em;">Email:</p>
+           <div style="flex: 1; display: flex !important; flex-direction: column !important; gap: 8px;">   <!-- 文字容器 -->
+            <h3 style="margin: 0; font-size: 1.1em; white-space: nowrap;">Zhuo Xu</h3>
+            <p style="margin: 0; color: #555; font-size: 0.9em; white-space: nowrap;">Huazhong University of Science and Technology</p>
+            <p style="margin: 0; color: #555; font-size: 0.9em; white-space: nowrap;">Email:</p>
            </div>
           </div>
         </div>
