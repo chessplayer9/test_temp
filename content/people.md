@@ -39,7 +39,6 @@ sections:
         ## Team Member
         {{< /center >}}
         
-        {{< html >}}
         {{< team_grid >}}
            {{< team_member 
                img="media/flower.jpg" 
@@ -51,7 +50,7 @@ sections:
                name="Zhuo Xu" 
                affiliation="Huazhong University of Science and Technology" >}}
         {{< /team_grid >}}
-        {{< /html >}}
+  
 
 
     
