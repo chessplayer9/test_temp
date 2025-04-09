@@ -41,7 +41,7 @@ sections:
 
         {{< team_grid >}}
           {{< team_member 
-              img="media/dy.jpg" 
+              img="/test_temp/media/flower.jpg" 
               name="Xiang Xiang" 
               affiliation="Huazhong University of Science and Technology" >}}
         {{< /team_grid >}}
