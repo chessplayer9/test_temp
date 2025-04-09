@@ -41,12 +41,12 @@ sections:
 
         {{< team_grid >}}
            {{< team_member 
-               img="assets/media/flower.jpg" 
+               img="flower.jpg" 
                name="Xiang Xiang" 
                affiliation="Huazhong University of Science and Technology" >}}
   
            {{< team_member 
-               img="assets/media/people.jpg" 
+               img="people.jpg" 
                name="Zhuo Xu" 
                affiliation="Huazhong University of Science and Technology" >}}
         {{< /team_grid >}}
