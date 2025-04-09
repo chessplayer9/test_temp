@@ -72,7 +72,7 @@ sections:
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
           ">
-           <img src="/assets/media/flower.jpg" style="
+           <img src="/media/flower.jpg" style="
             width: 120px;
             height: 120px ;
             object-fit: cover ;
