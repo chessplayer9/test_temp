@@ -55,13 +55,12 @@ sections:
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
           ">
-           <img src="cutegirl.jpg" alt="Xiang Xiang" style="
-            width: 120px !important;
-            height: 120px !important;
-            object-fit: cover !important;
-            border-radius: 0 !important;
-            border: 3px solid #4a89dc !important;
-            flex-shrink: 0 !important;       /* 防止图片被压缩 */
+           <img src="domains5-1.png" style="
+            width: 120px;
+            height: 120px ;
+            object-fit: cover ;
+            border-radius: 0 ;
+            flex-shrink: 0 ;       /* 防止图片被压缩 */
            ">
            <h3 style="margin: 0 0 10px 0">Xiang Xiang</h3>
            <p style="margin: 0; color: #000">Huazhong University of Science and Technology</p>
@@ -79,7 +78,6 @@ sections:
             height: 120px !important;
             object-fit: cover !important;
             border-radius: 0 !important;
-            border: 3px solid #4a89dc !important;
             flex-shrink: 0 !important;       /* 防止图片被压缩 */
             
            ">
@@ -99,7 +97,6 @@ sections:
             height: 120px !important;
             object-fit: cover !important;
             border-radius: 0 !important;
-            border: 3px solid #4a89dc !important;
             flex-shrink: 0 !important;       /* 防止图片被压缩 */
             
            ">
