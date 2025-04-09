@@ -55,7 +55,7 @@ sections:
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
           ">
-           <img src="/test_temp/assets/media/cutegirl.jpg" alt="Xiang Xiang" style="
+           <img src="cutegirl.jpg" alt="Xiang Xiang" style="
             width: 120px !important;
             height: 120px !important;
             object-fit: cover !important;
@@ -64,7 +64,7 @@ sections:
             flex-shrink: 0 !important;       /* 防止图片被压缩 */
            ">
            <h3 style="margin: 0 0 10px 0">Xiang Xiang</h3>
-           <p style="margin: 0; color: #555">Huazhong University of Science and Technology</p>
+           <p style="margin: 0; color: #000">Huazhong University of Science and Technology</p>
           </div>
 
           <!-- Member 2 -->
@@ -83,8 +83,8 @@ sections:
             flex-shrink: 0 !important;       /* 防止图片被压缩 */
             
            ">
-            <h3 style="margin: 0; font-size: 1.1em; white-space: nowrap;">Zhuo Xu</h3>
-            <p style="margin: 0; color: #555; font-size: 0.9em; white-space: nowrap;">Huazhong University of Science and Technology</p>
+            <h3 style="margin: 0 0 10px 0">Zhuo Xu</h3>
+            <p style="margin: 0; color: #000">Huazhong University of Science and Technology</p>
           </div>
           
           <!-- Member 3 -->
@@ -103,8 +103,8 @@ sections:
             flex-shrink: 0 !important;       /* 防止图片被压缩 */
             
            ">
-            <h3 style="margin: 0; font-size: 1.1em; white-space: nowrap;">Yao Deng</h3>
-            <p style="margin: 0; color: #555; font-size: 0.9em; white-space: nowrap;">Huazhong University of Science and Technology</p>
+            <h3 style="margin: 0 0 10px 0">Yao Deng</h3>
+            <p style="margin: 0; color: #000">Huazhong University of Science and Technology</p>
           </div>
           
           <!-- Member 4 -->
@@ -249,10 +249,5 @@ sections:
 
         </div>
       
-        #  - **Xiang Xiang**, Huazhong University of Science and Technology, China
-        #  - <strong>Zhuo Xu</strong>, Huazhong University of Science and   Technology, China
-        #  - <strong>Yao Deng</strong>, Huazhong University of Science and Technology, China
-        #  - <strong>Qinhao Zhou</strong>, Huazhong University of Science and Technology, China
-        #  - <strong>Yifan Liang</strong>, Huazhong University of Science and Technology, China
         {{< /test >}}
 ---
