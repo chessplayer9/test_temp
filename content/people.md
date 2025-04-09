@@ -41,10 +41,10 @@ sections:
                name="Xiang Xiang" 
                affiliation="Huazhong University of Science and Technology" >}}
   
-        {{< team_member 
-            img="cutegirl.jpg" 
-            name="Zhuo Xu" 
-            affiliation="Huazhong University of Science and Technology" >}}
+           {{< team_member 
+               img="cutegirl.jpg" 
+               name="Zhuo Xu" 
+               affiliation="Huazhong University of Science and Technology" >}}
         {{< /team_grid >}}
 
 
