@@ -39,6 +39,19 @@ sections:
         ## Team Member
         {{< /center >}}
 
+        {{< team_grid >}}
+          {{< team_member 
+              img="media/flower.jpg" 
+              name="Xiang Xiang" 
+              affiliation="Huazhong University of Science and Technology" >}}
+        
+          {{< team_member 
+              img="media/flower.jpg" 
+              name="Zhuo Xu" 
+              affiliation="Huazhong University of Science and Technology" >}}
+        {{< /team_grid >}}
+
+
         <!-- markdownlint-disable -->
         <div class="team-grid" style="
           display: grid;
