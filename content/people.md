@@ -43,7 +43,7 @@ sections:
         #   {{< team_member 
         #       img="media/flower.jpg" 
         #       name="Xiang Xiang" 
-        #       affiliation="Huazhong University of Science and Technology" >}}
+        #       affiliation="Huazhong University of Science and #Technology" >}}
         # {{< /team_grid >}}
 
 
@@ -62,7 +62,7 @@ sections:
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
           ">
-           <img src="media/flower.jpg" style="
+           <img src="/test_temp/assets/media/flower.jpg" style="
             width: 120px;
             height: 120px ;
             object-fit: cover ;
