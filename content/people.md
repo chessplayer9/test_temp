@@ -73,9 +73,6 @@ sections:
             padding: 20px !important;
             border-radius: 8px !important;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
-            display: flex !important;          /* 启用Flex布局 */
-            align-items: center !important;    /* 垂直居中 */
-            gap: 20px !important;             /* 图片和文字间距 */
           ">
            <img src="/test_temp/assets/media/flower.jpg" alt="Zhuo Xu" style="
             width: 120px !important;
@@ -86,11 +83,170 @@ sections:
             flex-shrink: 0 !important;       /* 防止图片被压缩 */
             
            ">
-           <div style="flex: 1 !important; display: flex !important; flex-direction: column !important; gap: 8px !important;">   <!-- 文字容器 -->
             <h3 style="margin: 0; font-size: 1.1em; white-space: nowrap;">Zhuo Xu</h3>
             <p style="margin: 0; color: #555; font-size: 0.9em; white-space: nowrap;">Huazhong University of Science and Technology</p>
-           </div>
           </div>
+          
+          <!-- Member 3 -->
+          <div class="member-card" style="
+            background: white !important;
+            padding: 20px !important;
+            border-radius: 8px !important;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+          ">
+           <img src="/test_temp/assets/media/flower.jpg" alt="Yao Deng" style="
+            width: 120px !important;
+            height: 120px !important;
+            object-fit: cover !important;
+            border-radius: 0 !important;
+            border: 3px solid #4a89dc !important;
+            flex-shrink: 0 !important;       /* 防止图片被压缩 */
+            
+           ">
+            <h3 style="margin: 0; font-size: 1.1em; white-space: nowrap;">Yao Deng</h3>
+            <p style="margin: 0; color: #555; font-size: 0.9em; white-space: nowrap;">Huazhong University of Science and Technology</p>
+          </div>
+          
+          <!-- Member 4 -->
+          <div class="member-card" style="
+            background: white !important;
+            padding: 20px !important;
+            border-radius: 8px !important;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+          ">
+           <img src="/test_temp/assets/media/flower.jpg" alt="Qinhao Zhou" style="
+            width: 120px !important;
+            height: 120px !important;
+            object-fit: cover !important;
+            border-radius: 0 !important;
+            border: 3px solid #4a89dc !important;
+            flex-shrink: 0 !important;       /* 防止图片被压缩 */
+            
+           ">
+            <h3 style="margin: 0; font-size: 1.1em; white-space: nowrap;">Qinhao Zhou</h3>
+            <p style="margin: 0; color: #555; font-size: 0.9em; white-space: nowrap;">Huazhong University of Science and Technology</p>
+          </div>
+
+          <!-- Member 5 -->
+          <div class="member-card" style="
+            background: white !important;
+            padding: 20px !important;
+            border-radius: 8px !important;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+          ">
+           <img src="/test_temp/assets/media/flower.jpg" alt="Yifan Liang" style="
+            width: 120px !important;
+            height: 120px !important;
+            object-fit: cover !important;
+            border-radius: 0 !important;
+            border: 3px solid #4a89dc !important;
+            flex-shrink: 0 !important;       /* 防止图片被压缩 */
+            
+           ">
+            <h3 style="margin: 0; font-size: 1.1em; white-space: nowrap;">Yifan Liang</h3>
+            <p style="margin: 0; color: #555; font-size: 0.9em; white-space: nowrap;">Huazhong University of Science and Technology</p>
+          </div>
+          
+          <!-- Member 6 -->
+          <div class="member-card" style="
+            background: white !important;
+            padding: 20px !important;
+            border-radius: 8px !important;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+          ">
+           <img src="/test_temp/assets/media/flower.jpg" alt="Ke Chen" style="
+            width: 120px !important;
+            height: 120px !important;
+            object-fit: cover !important;
+            border-radius: 0 !important;
+            border: 3px solid #4a89dc !important;
+            flex-shrink: 0 !important;       /* 防止图片被压缩 */
+            
+           ">
+            <h3 style="margin: 0; font-size: 1.1em; white-space: nowrap;">Ke Chen</h3>
+            <p style="margin: 0; color: #555; font-size: 0.9em; white-space: nowrap;"></p>
+          </div>
+
+          <!-- Member 7 -->
+          <div class="member-card" style="
+            background: white !important;
+            padding: 20px !important;
+            border-radius: 8px !important;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+          ">
+           <img src="/test_temp/assets/media/flower.jpg" alt="Qingfang Zheng" style="
+            width: 120px !important;
+            height: 120px !important;
+            object-fit: cover !important;
+            border-radius: 0 !important;
+            border: 3px solid #4a89dc !important;
+            flex-shrink: 0 !important;       /* 防止图片被压缩 */
+            
+           ">
+            <h3 style="margin: 0; font-size: 1.1em; white-space: nowrap;">Qingfang Zheng</h3>
+            <p style="margin: 0; color: #555; font-size: 0.9em; white-space: nowrap;"></p>
+          </div>
+          
+          <!-- Member 8 -->
+          <div class="member-card" style="
+            background: white !important;
+            padding: 20px !important;
+            border-radius: 8px !important;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+          ">
+           <img src="/test_temp/assets/media/flower.jpg" alt=" Yaowei Wang" style="
+            width: 120px !important;
+            height: 120px !important;
+            object-fit: cover !important;
+            border-radius: 0 !important;
+            border: 3px solid #4a89dc !important;
+            flex-shrink: 0 !important;       /* 防止图片被压缩 */
+            
+           ">
+            <h3 style="margin: 0; font-size: 1.1em; white-space: nowrap;"> Yaowei Wang</h3>
+            <p style="margin: 0; color: #555; font-size: 0.9em; white-space: nowrap;"></p>
+          </div>
+
+          <!-- Member 9 -->
+          <div class="member-card" style="
+            background: white !important;
+            padding: 20px !important;
+            border-radius: 8px !important;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+          ">
+           <img src="/test_temp/assets/media/flower.jpg" alt=" Xilin Chen" style="
+            width: 120px !important;
+            height: 120px !important;
+            object-fit: cover !important;
+            border-radius: 0 !important;
+            border: 3px solid #4a89dc !important;
+            flex-shrink: 0 !important;       /* 防止图片被压缩 */
+            
+           ">
+            <h3 style="margin: 0; font-size: 1.1em; white-space: nowrap;"> Xilin Chen</h3>
+            <p style="margin: 0; color: #555; font-size: 0.9em; white-space: nowrap;"></p>
+          </div>
+
+           <!-- Member 10 -->
+          <div class="member-card" style="
+            background: white !important;
+            padding: 20px !important;
+            border-radius: 8px !important;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+          ">
+           <img src="/test_temp/assets/media/flower.jpg" alt="Wen Gao" style="
+            width: 120px !important;
+            height: 120px !important;
+            object-fit: cover !important;
+            border-radius: 0 !important;
+            border: 3px solid #4a89dc !important;
+            flex-shrink: 0 !important;       /* 防止图片被压缩 */
+            
+           ">
+            <h3 style="margin: 0; font-size: 1.1em; white-space: nowrap;"> Wen Gao</h3>
+            <p style="margin: 0; color: #555; font-size: 0.9em; white-space: nowrap;"></p>
+          </div>
+
         </div>
       
         #  - **Xiang Xiang**, Huazhong University of Science and Technology, China
