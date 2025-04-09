@@ -47,6 +47,9 @@ taxonomies:
   tag: tags
   publication_type: publication_types
 markup:
+  goldmark:
+    renderer:
+      unsafe: true  # 允许渲染原始HTML
   _merge: deep
   highlight:
     lineNos: false
