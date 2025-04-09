@@ -62,17 +62,23 @@ sections:
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;          /* 启用Flex布局 */
+            align-items: center;    /* 垂直居中 */
+            gap: 20px;             /* 图片和文字间距 */
           ">
-           <img src="flower.jpg" alt="Zhuo Xu" style="
+           <img src="/media/flower.jpg" alt="Zhuo Xu" style="
             width: 120px;
             height: 120px;
             object-fit: cover;
             border-radius: 50%;
             border: 3px solid #4a89dc;
-            margin-bottom: 15px;
+            flex-shrink: 0;       /* 防止图片被压缩 */
+            
            ">
-           <h3 style="margin: 0 0 10px 0">Zhuo Xu</h3>
-           <p style="margin: 0; color: #555">Hust 2</p>
+           <div style="flex: 1;">   <!-- 文字容器 -->
+            <h3 style="margin: 0 0 8px 0">Zhuo Xu</h3>
+            <p style="margin: 0; color: #555">Hust 2</p>
+           </div>
           </div>
         </div>
       
