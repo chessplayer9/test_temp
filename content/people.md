@@ -40,18 +40,6 @@ sections:
         ## Team Member
         {{< /center >}}
 
-        {{< team_grid >}}
-          {{< team_member 
-              img="media/flower.jpg" 
-              name="Xiang Xiang" 
-              affiliation="Huazhong University of Science and Technology" >}}
-        
-          {{< team_member 
-              img="media/flower.jpg" 
-              name="Zhuo Xu" 
-              affiliation="Huazhong University of Science and Technology" >}}
-        {{< /team_grid >}}
-
         <!-- markdownlint-disable -->
         <div class="team-grid" style="
           display: grid;
@@ -68,8 +56,8 @@ sections:
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
           ">
            <img src="/test_temp/media/flower.jpg" style="
-            width: 120px;
-            height: 120px ;
+            width: 160px;
+            height: 160px ;
             object-fit: cover ;
             border-radius: 0 ;
             flex-shrink: 0 ;       /* 防止图片被压缩 */
@@ -80,17 +68,17 @@ sections:
 
           <!-- Member 2 -->
           <div class="member-card" style="
-            background: white !important;
-            padding: 20px !important;
-            border-radius: 8px !important;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+            background: white ;
+            padding: 20px ;
+            border-radius: 8px ;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
           ">
-           <img src="/test_temp/assets/media/flower.jpg" alt="Zhuo Xu" style="
-            width: 120px !important;
-            height: 120px !important;
-            object-fit: cover !important;
-            border-radius: 0 !important;
-            flex-shrink: 0 !important;       /* 防止图片被压缩 */
+           <img src="/test_temp/media/xz.jpg" style="
+            width: 160px ;
+            height: 160px ;
+            object-fit: cover ;
+            border-radius: 0 ;
+            flex-shrink: 0 ;       /* 防止图片被压缩 */
             
            ">
             <h3 style="margin: 0 0 10px 0">Zhuo Xu</h3>
@@ -99,17 +87,17 @@ sections:
           
           <!-- Member 3 -->
           <div class="member-card" style="
-            background: white !important;
-            padding: 20px !important;
-            border-radius: 8px !important;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+            background: white ;
+            padding: 20px ;
+            border-radius: 8px ;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
           ">
-           <img src="/test_temp/assets/media/flower.jpg" alt="Yao Deng" style="
-            width: 120px !important;
-            height: 120px !important;
-            object-fit: cover !important;
-            border-radius: 0 !important;
-            flex-shrink: 0 !important;       /* 防止图片被压缩 */
+           <img src="/test_temp/media/dy.jpg" style="
+            width: 160px ;
+            height: 160px ;
+            object-fit: cover ;
+            border-radius: 0 ;
+            flex-shrink: 0 ;       /* 防止图片被压缩 */
             
            ">
             <h3 style="margin: 0 0 10px 0">Yao Deng</h3>
@@ -118,142 +106,142 @@ sections:
           
           <!-- Member 4 -->
           <div class="member-card" style="
-            background: white !important;
-            padding: 20px !important;
-            border-radius: 8px !important;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+            background: white ;
+            padding: 20px ;
+            border-radius: 8px ;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
           ">
-           <img src="/test_temp/assets/media/flower.jpg" alt="Qinhao Zhou" style="
-            width: 120px !important;
-            height: 120px !important;
-            object-fit: cover !important;
-            border-radius: 0 !important;
-            border: 3px solid #4a89dc !important;
-            flex-shrink: 0 !important;       /* 防止图片被压缩 */
+           <img src="/test_temp/media/zqh.jpg" style="
+            width: 160px ;
+            height: 160px ;
+            object-fit: cover ;
+            border-radius: 0 ;
+            border: 3px solid #4a89dc ;
+            flex-shrink: 0 ;       /* 防止图片被压缩 */
             
            ">
-            <h3 style="margin: 0; font-size: 1.1em; white-space: nowrap;">Qinhao Zhou</h3>
-            <p style="margin: 0; color: #555; font-size: 0.9em; white-space: nowrap;">Huazhong University of Science and Technology</p>
+            <h3 style="margin: 0 0 10px 0">Qinhao Zhou</h3>
+            <p style="margin: 0; color: #000;">Huazhong University of Science and Technology</p>
           </div>
 
           <!-- Member 5 -->
           <div class="member-card" style="
-            background: white !important;
-            padding: 20px !important;
-            border-radius: 8px !important;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+            background: white ;
+            padding: 20px ;
+            border-radius: 8px ;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
           ">
-           <img src="/test_temp/assets/media/flower.jpg" alt="Yifan Liang" style="
-            width: 120px !important;
-            height: 120px !important;
-            object-fit: cover !important;
-            border-radius: 0 !important;
-            border: 3px solid #4a89dc !important;
-            flex-shrink: 0 !important;       /* 防止图片被压缩 */
+           <img src="/test_temp/media/lyf.jpg" style="
+            width: 160px ;
+            height: 160px ;
+            object-fit: cover ;
+            border-radius: 0 ;
+            border: 3px solid #4a89dc ;
+            flex-shrink: 0 ;       /* 防止图片被压缩 */
             
            ">
-            <h3 style="margin: 0; font-size: 1.1em; white-space: nowrap;">Yifan Liang</h3>
-            <p style="margin: 0; color: #555; font-size: 0.9em; white-space: nowrap;">Huazhong University of Science and Technology</p>
+            <h3 style="margin: 0 0 10px 0">Yifan Liang</h3>
+            <p style="margin: 0; color: #000;">Huazhong University of Science and Technology</p>
           </div>
           
           <!-- Member 6 -->
           <div class="member-card" style="
-            background: white !important;
-            padding: 20px !important;
-            border-radius: 8px !important;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+            background: white ;
+            padding: 20px ;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
           ">
-           <img src="/test_temp/assets/media/flower.jpg" alt="Ke Chen" style="
-            width: 120px !important;
-            height: 120px !important;
-            object-fit: cover !important;
-            border-radius: 0 !important;
-            border: 3px solid #4a89dc !important;
-            flex-shrink: 0 !important;       /* 防止图片被压缩 */
+           <img src="/test_temp/media/flower.jpg" style="
+            width: 160px ;
+            height: 160px ;
+            object-fit: cover ;
+            border-radius: 0 ;
+            border: 3px solid #4a89dc ;
+            flex-shrink: 0 ;       /* 防止图片被压缩 */
             
            ">
-            <h3 style="margin: 0; font-size: 1.1em; white-space: nowrap;">Ke Chen</h3>
-            <p style="margin: 0; color: #555; font-size: 0.9em; white-space: nowrap;"></p>
+            <h3 style="margin: 0 0 10px 0">Ke Chen</h3>
+            <p style="margin: 0; color: #000;">Huazhong University of Science and Technology</p>
           </div>
 
           <!-- Member 7 -->
           <div class="member-card" style="
-            background: white !important;
-            padding: 20px !important;
-            border-radius: 8px !important;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+            background: white ;
+            padding: 20px ;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
           ">
-           <img src="/test_temp/assets/media/flower.jpg" alt="Qingfang Zheng" style="
-            width: 120px !important;
-            height: 120px !important;
-            object-fit: cover !important;
-            border-radius: 0 !important;
-            border: 3px solid #4a89dc !important;
-            flex-shrink: 0 !important;       /* 防止图片被压缩 */
+           <img src="/test_temp/media/flower.jpg" style="
+            width: 160px ;
+            height: 160px ;
+            object-fit: cover ;
+            border-radius: 0 ;
+            border: 3px solid #4a89dc ;
+            flex-shrink: 0 ;       /* 防止图片被压缩 */
             
            ">
-            <h3 style="margin: 0; font-size: 1.1em; white-space: nowrap;">Qingfang Zheng</h3>
-            <p style="margin: 0; color: #555; font-size: 0.9em; white-space: nowrap;"></p>
+            <h3 style="margin: 0 0 10px 0">Qingfang Zheng</h3>
+            <p style="margin: 0; color: #000;">Huazhong University of Science and Technology</p>
           </div>
           
           <!-- Member 8 -->
           <div class="member-card" style="
-            background: white !important;
-            padding: 20px !important;
-            border-radius: 8px !important;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+            background: white ;
+            padding: 20px ;
+            border-radius: 8px ;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
           ">
-           <img src="/test_temp/assets/media/flower.jpg" alt=" Yaowei Wang" style="
-            width: 120px !important;
-            height: 120px !important;
-            object-fit: cover !important;
-            border-radius: 0 !important;
-            border: 3px solid #4a89dc !important;
-            flex-shrink: 0 !important;       /* 防止图片被压缩 */
+           <img src="/test_temp/media/flower.jpg" style="
+            width: 160px ;
+            height: 160px ;
+            object-fit: cover ;
+            border-radius: 0 ;
+            border: 3px solid #4a89dc ;
+            flex-shrink: 0 ;       /* 防止图片被压缩 */
             
            ">
-            <h3 style="margin: 0; font-size: 1.1em; white-space: nowrap;"> Yaowei Wang</h3>
-            <p style="margin: 0; color: #555; font-size: 0.9em; white-space: nowrap;"></p>
+            <h3 style="margin: 0 0 10px 0">Yaowei Wang</h3>
+            <p style="margin: 0; color: #000;">Huazhong University of Science and Technology</p>
           </div>
 
           <!-- Member 9 -->
           <div class="member-card" style="
-            background: white !important;
-            padding: 20px !important;
-            border-radius: 8px !important;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+            background: white ;
+            padding: 20px ;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
           ">
-           <img src="/test_temp/assets/media/flower.jpg" alt=" Xilin Chen" style="
-            width: 120px !important;
-            height: 120px !important;
-            object-fit: cover !important;
-            border-radius: 0 !important;
-            border: 3px solid #4a89dc !important;
-            flex-shrink: 0 !important;       /* 防止图片被压缩 */
+           <img src="/test_temp/media/flower.jpg" style="
+            width: 160px ;
+            height: 160px ;
+            object-fit: cover ;
+            border-radius: 0 ;
+            border: 3px solid #4a89dc ;
+            flex-shrink: 0 ;       /* 防止图片被压缩 */
             
            ">
-            <h3 style="margin: 0; font-size: 1.1em; white-space: nowrap;"> Xilin Chen</h3>
-            <p style="margin: 0; color: #555; font-size: 0.9em; white-space: nowrap;"></p>
+            <h3 style="margin: 0 0 10px 0">Xilin Chen</h3>
+            <p style="margin: 0; color: #000;">Huazhong University of Science and Technology</p>
           </div>
 
            <!-- Member 10 -->
           <div class="member-card" style="
-            background: white !important;
-            padding: 20px !important;
-            border-radius: 8px !important;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+            background: white;
+            padding: 20px ;
+            border-radius: 8px ;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
           ">
-           <img src="/test_temp/assets/media/flower.jpg" alt="Wen Gao" style="
-            width: 120px !important;
-            height: 120px !important;
-            object-fit: cover !important;
-            border-radius: 0 !important;
-            border: 3px solid #4a89dc !important;
-            flex-shrink: 0 !important;       /* 防止图片被压缩 */
+           <img src="/test_temp/media/flower.jpg" style="
+            width: 160px ;
+            height: 160px ;
+            object-fit: cover ;
+            border-radius: 0 ;
+            border: 3px solid #4a89dc ;
+            flex-shrink: 0 ;       /* 防止图片被压缩 */
             
            ">
-            <h3 style="margin: 0; font-size: 1.1em; white-space: nowrap;"> Wen Gao</h3>
-            <p style="margin: 0; color: #555; font-size: 0.9em; white-space: nowrap;"></p>
+            <h3 style="margin: 0 0 10px 0">Wen Gao</h3>
+            <p style="margin: 0; color: #000;">Huazhong University of Science and Technology</p>
           </div>
         </div>
         {{< /test >}}
