@@ -34,10 +34,13 @@ sections:
     content:
       #title: '<span style="font-size: 24px;">Team Member</span>'
       text: |
+        <!-- markdownlint-disable -->
         {{< test margin="625px" bg="#ffffff" >}}
         {{< center >}}
         ## Team Member
         {{< /center >}}
+
+        {{ $flower := resources.Get "media/flower.jpg" }}
         <div class="team-grid" style="
           display: grid;
           grid-template-columns: repeat(2, 1fr);
@@ -58,24 +61,24 @@ sections:
 
           <!-- Member 2 -->
           <div class="member-card" style="
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-            display: flex;          /* 启用Flex布局 */
-            align-items: center;    /* 垂直居中 */
-            gap: 20px;             /* 图片和文字间距 */
+            background: white !important;
+            padding: 20px !important;
+            border-radius: 8px !important;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1) !important;
+            display: flex !important;          /* 启用Flex布局 */
+            align-items: center !important;    /* 垂直居中 */
+            gap: 20px !important;             /* 图片和文字间距 */
           ">
-           <img src="/test_temp/assets/media/flower.jpg" alt="Zhuo Xu" style="
-            width: 120px;
-            height: 120px;
-            object-fit: cover;
-            border-radius: 50%;
-            border: 3px solid #4a89dc;
-            flex-shrink: 0;       /* 防止图片被压缩 */
+           <img src="{{ $flower.RelPermalink }}" alt="Zhuo Xu" style="
+            width: 120px !important;
+            height: 120px !important;
+            object-fit: cover !important;
+            border-radius: 50% !important;
+            border: 3px solid #4a89dc !important;
+            flex-shrink: 0 !important;       /* 防止图片被压缩 */
             
            ">
-           <div style="flex: 1; display: flex !important; flex-direction: column !important; gap: 8px;">   <!-- 文字容器 -->
+           <div style="flex: 1 !important; display: flex !important; flex-direction: column !important; gap: 8px !important;">   <!-- 文字容器 -->
             <h3 style="margin: 0; font-size: 1.1em; white-space: nowrap;">Zhuo Xu</h3>
             <p style="margin: 0; color: #555; font-size: 0.9em; white-space: nowrap;">Huazhong University of Science and Technology</p>
             <p style="margin: 0; color: #555; font-size: 0.9em; white-space: nowrap;">Email:</p>
