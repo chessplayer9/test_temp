@@ -63,7 +63,7 @@ sections:
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
           ">
            {{/* 使用 resources.Get 加载图片 */}}
-           {{ $img := resources.Get "media/flower.jpg" }}
+           {{ $img := resources.Get "/test_temp/media/flower.jpg" }}
            <img src="{{ $img.RelPermalink }}" style="
             width: 120px;
             height: 120px ;
