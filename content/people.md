@@ -34,7 +34,6 @@ sections:
     content:
       #title: '<span style="font-size: 24px;">Team Member</span>'
       text: |
-        <!-- markdownlint-disable -->
         {{< test margin="625px" bg="#ffffff" >}}
 
         {{< center >}}
@@ -52,7 +51,8 @@ sections:
               name="Zhuo Xu" 
               affiliation="Huazhong University of Science and Technology" >}}
         {{< /team_grid >}}
-  
+
+        <!-- markdownlint-disable -->
         <div class="team-grid" style="
           display: grid;
           grid-template-columns: repeat(2, 1fr);
