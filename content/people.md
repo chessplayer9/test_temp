@@ -34,6 +34,26 @@ sections:
     content:
       #title: '<span style="font-size: 24px;">Team Member</span>'
       text: |
+
+        {{< team_grid >}}
+           {{< team_member 
+               img="flower.jpg" 
+               name="Xiang Xiang" 
+               affiliation="Huazhong University of Science and Technology" >}}
+  
+        {{< team_member 
+            img="cutegirl.jpg" 
+            name="Zhuo Xu" 
+            affiliation="Huazhong University of Science and Technology" >}}
+        {{< /team_grid >}}
+
+
+
+
+
+
+
+
         <!-- markdownlint-disable -->
         {{< test margin="625px" bg="#ffffff" >}}
         {{< center >}}
