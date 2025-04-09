@@ -35,7 +35,6 @@ sections:
       #title: '<span style="font-size: 24px;">Team Member</span>'
       text: |
         {{< test margin="625px" bg="#ffffff" >}}
-
         {{< center >}}
         ## Team Member
         {{< /center >}}
@@ -56,8 +55,8 @@ sections:
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
           ">
            <img src="/test_temp/media/flower.jpg" style="
-            width: 160px;
-            height: 160px ;
+            width: 120px;
+            height: 120px ;
             object-fit: cover ;
             border-radius: 0 ;
             flex-shrink: 0 ;       /* 防止图片被压缩 */
