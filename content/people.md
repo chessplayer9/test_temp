@@ -38,24 +38,24 @@ sections:
         {{< center >}}
         ## Team Member
         {{< /center >}}
+
+        # <!-- markdownlint-disable -->
+        # {{< team_grid >}}
+        #   {{< team_member 
+        #       img="/media/flower.jpg" 
+        #       name="Xiang Xiang" 
+        #       affiliation="Huazhong University of Science and Technology" >}}
         
-        <!-- markdownlint-disable -->
-        {{< team_grid >}}
-          {{< team_member 
-              img="/media/flower.jpg" 
-              name="Xiang Xiang" 
-              affiliation="Huazhong University of Science and Technology" >}}
-        
-          {{< team_member 
-              img="media/xz.jpg" 
-              name="Zhuo Xu" 
-              affiliation="Huazhong University of Science and Technology" >}}
-          {{< team_member 
-              img="media/dy.jpg" 
-              name="Yao Deng" 
-              affiliation="Huazhong University of Science and Technology" >}}  
+        #   {{< team_member 
+        #       img="media/xz.jpg" 
+        #       name="Zhuo Xu" 
+        #       affiliation="Huazhong University of Science and Technology" >}}
+        #   {{< team_member 
+        #       img="media/dy.jpg" 
+        #       name="Yao Deng" 
+        #       affiliation="Huazhong University of Science and Technology" >}}  
           
-        {{< /team_grid >}}
+        # {{< /team_grid >}}
 
         <!-- markdownlint-disable -->
         <div class="team-grid" style="
@@ -72,7 +72,7 @@ sections:
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
           ">
-           <img src="/test_temp/media/flower.jpg" style="
+           <img src="/assets/media/flower.jpg" style="
             width: 120px;
             height: 120px ;
             object-fit: cover ;
