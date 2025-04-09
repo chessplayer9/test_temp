@@ -55,7 +55,7 @@ sections:
           margin-top: 30px;
         ">
           {{< team_member 
-               img="media/flower.jpg" 
+               img="/test_temp/media/flower.jpg" 
                name="Xiang Xiang" 
                affiliation="Huazhong University of Science and Technology" >}}
       
