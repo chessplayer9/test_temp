@@ -16,9 +16,9 @@ main:
   - name: Task
     url: task/
     weight: 13
-  - name: Framework
-    url: experience/
-    weight: 20
+  # - name: Framework
+  #   url: experience/
+  #   weight: 20
   - name: People
     url: people/
     weight: 30
