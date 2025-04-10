@@ -39,20 +39,21 @@ sections:
         ## Team Member
         {{< /center >}}
   
-        <!-- markdownlint-disable -->
-        {{< team_grid >}}
-          {{< team_member 
-              img="/test_temp/media/flower.jpg" 
-              name="Xiang Xiang" 
-              affiliation="Huazhong University of Science and #Technology" >}}
-          {{< team_member 
-              img="media/xz.jpg" 
-              name="Zhuo Xu" 
-              affiliation="Huazhong University of Science and # Technology" >}}
-          {{< team_member 
-              img="media/dy.jpg" 
-              name="Yao Deng" 
-              affiliation="Huazhong University of Science and Technology" >}}   
-        {{< /team_grid >}}
+        <!-- 在Markdown文件中直接使用HTML -->
+        <div class="two-columns" style="
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+           gap: 2rem;
+        ">
+          <!-- 左列 -->
+          <div>
+            {{< team_member name="张三" img="flower.jpg" >}}
+          </div>
+  
+          <!-- 右列 -->
+          <div>
+            {{< team_member name="李四" img="member2.jpg" >}}
+          </div>
+        </div>
         {{< /test >}}
 ---
