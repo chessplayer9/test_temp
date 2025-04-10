@@ -40,7 +40,7 @@ sections:
         {{< /center >}}
   
         <div style="text-align: left;">
-             <img src="cutegirl.jpg" width="60%" />
+             <img src="/media/cutegirl.jpg" width="60%" />
              <h3 style="margin: 5px 0;">张三</h3>
              <p style="margin: 0; color: #000;">Huazhong University of Science and Technology</p>
         </div>
