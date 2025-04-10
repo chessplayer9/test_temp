@@ -54,7 +54,7 @@ sections:
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
           ">
-            <img src="/test_temp/cutegirl.jpg" style="width: 120px; height: 120px; object-fit: cover;">
+            <img src="/test_temp/cutegirl.jpg" style="width: 160px; height: 180px; object-fit: cover;">
             <h3 style="margin: 0 0 10px 0">Xiang Xiang</h3>
             <p style="margin: 0; color: #000">Huazhong University of Science and Technology</p>
           </div>
@@ -68,7 +68,7 @@ sections:
           ">
            <img src="/test_temp/xz.jpg" style="
             width: 160px ;
-            height: 160px ;
+            height: 180px ;
             object-fit: cover ;
             border-radius: 0 ;
             flex-shrink: 0 ;       /* 防止图片被压缩 */
@@ -87,7 +87,7 @@ sections:
 
            <img src="/test_temp/dy.jpg" style="
             width: 160px ;
-            height: 160px ;
+            height: 180px ;
             object-fit: cover ;
             border-radius: 0 ;
             flex-shrink: 0 ;       /* 防止图片被压缩 */  
@@ -105,13 +105,11 @@ sections:
           ">
            <img src="/test_temp/zqh.jpg" style="
             width: 160px ;
-            height: 160px ;
+            height: 180px ;
             object-fit: cover ;
             border-radius: 0 ;
-            border: 3px solid #4a89dc ;
             flex-shrink: 0 ;       /* 防止图片被压缩 */ 
            ">
-
             <h3 style="margin: 0 0 10px 0">Qinhao Zhou</h3>
             <p style="margin: 0; color: #000;">Huazhong University of Science and Technology</p>
           </div>
@@ -125,15 +123,15 @@ sections:
           ">
            <img src="/test_temp/lyf.jpg" style="
             width: 160px ;
-            height: 160px ;
+            height: 180px ;
             object-fit: cover ;
             border-radius: 0 ;
-            border: 3px solid #4a89dc ;
             flex-shrink: 0 ;       /* 防止图片被压缩 */  
            ">
             <h3 style="margin: 0 0 10px 0">Yifan Liang</h3>
             <p style="margin: 0; color: #000;">Huazhong University of Science and Technology</p>
           </div>
+
           <!-- Member 6 -->
           <div class="member-card" style="
             background: white ;
@@ -143,10 +141,9 @@ sections:
           ">
            <img src="/test_temp/media/flower.jpg" style="
             width: 160px ;
-            height: 160px ;
+            height: 180px ;
             object-fit: cover ;
             border-radius: 0 ;
-            border: 3px solid #4a89dc ;
             flex-shrink: 0 ;       /* 防止图片被压缩 */
            ">
             <h3 style="margin: 0 0 10px 0">Ke Chen</h3>
@@ -163,10 +160,9 @@ sections:
 
            <img src="/test_temp/media/flower.jpg" style="
             width: 160px ;
-            height: 160px ;
+            height: 180px ;
             object-fit: cover ;
             border-radius: 0 ;
-            border: 3px solid #4a89dc ;
             flex-shrink: 0 ;       /* 防止图片被压缩 */
            ">
             <h3 style="margin: 0 0 10px 0">Qingfang Zheng</h3>
@@ -182,10 +178,9 @@ sections:
           ">
            <img src="/test_temp/media/flower.jpg" style="
             width: 160px ;
-            height: 160px ;
+            height: 180px ;
             object-fit: cover ;
             border-radius: 0 ;
-            border: 3px solid #4a89dc ;
             flex-shrink: 0 ;       /* 防止图片被压缩 */ 
            ">
             <h3 style="margin: 0 0 10px 0">Yaowei Wang</h3>
@@ -201,10 +196,9 @@ sections:
           ">
            <img src="/test_temp/media/flower.jpg" style="
             width: 160px ;
-            height: 160px ;
+            height: 180px ;
             object-fit: cover ;
             border-radius: 0 ;
-            border: 3px solid #4a89dc ;
             flex-shrink: 0 ;       /* 防止图片被压缩 */
            ">
             <h3 style="margin: 0 0 10px 0">Xilin Chen</h3>
@@ -220,10 +214,9 @@ sections:
           ">
            <img src="/test_temp/media/flower.jpg" style="
             width: 160px ;
-            height: 160px ;
+            height: 180px ;
             object-fit: cover ;
             border-radius: 0 ;
-            border: 3px solid #4a89dc ;
             flex-shrink: 0 ;       /* 防止图片被压缩 */ 
            ">
             <h3 style="margin: 0 0 10px 0">Wen Gao</h3>
