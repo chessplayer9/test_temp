@@ -42,7 +42,7 @@ sections:
         <!-- markdownlint-disable -->
         {{< team_grid >}}
           {{< team_member 
-              img="/media/flower.jpg" 
+              img="/test_temp/media/flower.jpg" 
               name="Xiang Xiang" 
               affiliation="Huazhong University of Science and #Technology" >}}
           {{< team_member 
