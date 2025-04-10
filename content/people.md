@@ -39,21 +39,11 @@ sections:
         ## Team Member
         {{< /center >}}
   
-        <!-- 在Markdown文件中直接使用HTML -->
-        <div class="two-columns" style="
-           display: grid;
-           grid-template-columns: 1fr 1fr;
-           gap: 2rem;
-        ">
-          <!-- 左列 -->
-          <div>
-            {{< team_member name="张三" img="flower.jpg" >}}
-          </div>
-  
-          <!-- 右列 -->
-          <div>
-            {{< team_member name="李四" img="member2.jpg" >}}
-          </div>
+        <div style="text-align: left;">
+             <img src="cutegirl.jpg" width="60%" />
+             <h3 style="margin: 5px 0;">张三</h3>
+             <p style="margin: 0; color: #000;">Huazhong University of Science and Technology</p>
         </div>
+        
         {{< /test >}}
 ---
