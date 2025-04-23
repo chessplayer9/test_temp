@@ -54,7 +54,7 @@ sections:
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
           ">
-            <img src="/test_temp/cutegirl.jpg" style="width: 160px; height: 180px; object-fit: cover;">
+            <img src="/test_temp/xx.png" style="width: 160px; height: 180px; object-fit: cover;">
             <h3 style="margin: 0 0 10px 0">Xiang Xiang</h3>
             <p style="margin: 0; color: #000">Huazhong University of Science and Technology</p>
           </div>
@@ -139,7 +139,7 @@ sections:
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
           ">
-           <img src="/test_temp/media/flower.jpg" style="
+           <img src="/test_temp/media/KeChen.png" style="
             width: 160px ;
             height: 180px ;
             object-fit: cover ;
@@ -147,7 +147,7 @@ sections:
             flex-shrink: 0 ;       /* 防止图片被压缩 */
            ">
             <h3 style="margin: 0 0 10px 0">Ke Chen</h3>
-            <p style="margin: 0; color: #000;">Huazhong University of Science and Technology</p>
+            <p style="margin: 0; color: #000;"> Peng Cheng Laboratory</p>
           </div>
 
           <!-- Member 7 -->
@@ -176,7 +176,7 @@ sections:
             border-radius: 8px ;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
           ">
-           <img src="/test_temp/media/flower.jpg" style="
+           <img src="/test_temp/media/wyw.png" style="
             width: 160px ;
             height: 180px ;
             object-fit: cover ;
@@ -184,7 +184,7 @@ sections:
             flex-shrink: 0 ;       /* 防止图片被压缩 */ 
            ">
             <h3 style="margin: 0 0 10px 0">Yaowei Wang</h3>
-            <p style="margin: 0; color: #000;">Huazhong University of Science and Technology</p>
+            <p style="margin: 0; color: #000;">Harbin Institute of Technology,ShenZhen、Peng Cheng Laboratory</p>
           </div>
 
           <!-- Member 9 -->
@@ -212,7 +212,7 @@ sections:
             border-radius: 8px ;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
           ">
-           <img src="/test_temp/media/flower.jpg" style="
+           <img src="/test_temp/media/gw.png" style="
             width: 160px ;
             height: 180px ;
             object-fit: cover ;
@@ -220,7 +220,7 @@ sections:
             flex-shrink: 0 ;       /* 防止图片被压缩 */ 
            ">
             <h3 style="margin: 0 0 10px 0">Wen Gao</h3>
-            <p style="margin: 0; color: #000;">Huazhong University of Science and Technology</p>
+            <p style="margin: 0; color: #000;">Peking University、Peng Cheng Laboratory</p>
           </div>
         </div>
         {{< /test >}}
