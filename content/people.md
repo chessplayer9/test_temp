@@ -184,7 +184,7 @@ sections:
             flex-shrink: 0 ;       /* 防止图片被压缩 */ 
            ">
             <h3 style="margin: 0 0 10px 0">Yaowei Wang</h3>
-            <p style="margin: 0; color: #000;">Harbin Institute of Technology,ShenZhen、Peng Cheng Laboratory</p>
+            <p style="margin: 0; color: #000;">Harbin Institute of Technology-ShenZhen, Peng Cheng Laboratory</p>
           </div>
 
           <!-- Member 9 -->
@@ -220,7 +220,7 @@ sections:
             flex-shrink: 0 ;       /* 防止图片被压缩 */ 
            ">
             <h3 style="margin: 0 0 10px 0">Wen Gao</h3>
-            <p style="margin: 0; color: #000;">Peking University、Peng Cheng Laboratory</p>
+            <p style="margin: 0; color: #000;">Peking University, Peng Cheng Laboratory</p>
           </div>
         </div>
         {{< /test >}}
