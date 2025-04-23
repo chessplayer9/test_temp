@@ -139,7 +139,7 @@ sections:
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
           ">
-           <img src="/test_temp/media/KeChen.png" style="
+           <img src="/test_temp/KeChen.png" style="
             width: 160px ;
             height: 180px ;
             object-fit: cover ;
@@ -158,7 +158,7 @@ sections:
             box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
           ">
 
-           <img src="/test_temp/media/flower.jpg" style="
+           <img src="/test_temp/flower.jpg" style="
             width: 160px ;
             height: 180px ;
             object-fit: cover ;
@@ -176,7 +176,7 @@ sections:
             border-radius: 8px ;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
           ">
-           <img src="/test_temp/media/wyw.png" style="
+           <img src="/test_temp/wyw.png" style="
             width: 160px ;
             height: 180px ;
             object-fit: cover ;
@@ -194,7 +194,7 @@ sections:
             border-radius: 8px;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1) ;
           ">
-           <img src="/test_temp/media/flower.jpg" style="
+           <img src="/test_temp/flower.jpg" style="
             width: 160px ;
             height: 180px ;
             object-fit: cover ;
@@ -212,7 +212,7 @@ sections:
             border-radius: 8px ;
             box-shadow: 0 2px 5px rgba(0,0,0,0.1);
           ">
-           <img src="/test_temp/media/gw.png" style="
+           <img src="/test_temp/gw.png" style="
             width: 160px ;
             height: 180px ;
             object-fit: cover ;
